@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Lovelo";
+    src: local("Lovelo"),
+     url(~/assets/fonts/LoveloBlack.ttf) format("truetype");
+}
+
+html {
+    font-family: "Lovelo";
+}
