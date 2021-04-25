@@ -16,5 +16,5 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[Navic Live Link] (https://6085eec9cdefd94305fa62e4--dazzling-wescoff-a7920a.netlify.app/).
+[Nuxt.js docs](https://nuxtjs.org).
