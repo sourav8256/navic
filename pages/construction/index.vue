@@ -2,13 +2,15 @@
   <div class="main">
     <div class="navbar-construction">
       <b-navbar class="justify-content-center">
-        <img class="logoconstruction" src="~assets/logoblack.svg">
+        <img class="logoconstruction" src="~assets/whitelogo.svg">
       </b-navbar>
     </div>
     <div container class="construction-body flex">
-      <h1 class="text-head align-bottom">
+      <transition
+      enter-active-class="animate__fadeOutRightBig">
+      <h1 class="text-head align-bottom ">
         EVOLVE
-      </h1>
+      </h1> </transition>
       <div class="loading-symbol inline-block">
         <span class="polygon-construction" v-bind:style="{ display: computedDisplay}"> <img v-bind:src="require('~/assets/' + img)"> </span>
         <span class="ellipse-construction"> <img src="~/assets/ellipse.svg" alt=""> </span>
@@ -56,9 +58,10 @@ padding-top: 70px;
     align-content: center;
     text-align: center;
     width: auto;
+    height:100px;
 }
 .navbar-construction{
-    background-color:#0F0F0F;
+    background-color:#c43434;
 }
 .construction-body{
     padding-top: 150px;
