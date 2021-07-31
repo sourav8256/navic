@@ -53,7 +53,6 @@ line-height: 55px;
     color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-<<<<<<< Updated upstream
 padding-top: 70px;
 }
 .logoconstruction{
@@ -74,15 +73,6 @@ padding-top: 70px;
 text-align: center;
 padding: 0px;
 padding-bottom: 50px;
-=======
-padding-top: 20px;
-letter-spacing: 0.15em;
-}
-.loading-symbol{
-text-align: center;
-padding-bottom: 90px;
-height:100px;
->>>>>>> Stashed changes
 }
 .polygon-construction{
 padding: 5px;
