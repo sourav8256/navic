@@ -1,10 +1,14 @@
 <template>
   <div>
+    <NavBar />
     <Nuxt />
+    <Footer />
+    <LastPart />
   </div>
 </template>
-
 <style>
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+
 html {
   font-family:
     'Source Sans Pro',
@@ -58,5 +62,15 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+a:hover {
+  color: rgba(218, 42, 100, 0.596);
+  text-decoration: none;
 }
 </style>

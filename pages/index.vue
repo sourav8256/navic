@@ -1,11 +1,6 @@
 <template>
-  <div class="main">
-    <div class="navbar-construction">
-      <b-navbar class="justify-content-center">
-        <img class="logoconstruction" src="~assets/logoblack.svg">
-      </b-navbar>
-    </div>
-    <div container class="construction-body flex">
+  <section class="main">
+    <b-container>
       <h1 class="text-head align-bottom">
         EVOLVE
       </h1>
@@ -14,15 +9,17 @@
         <span class="ellipse-construction"> <img src="~/assets/ellipse.svg" alt=""> </span>
         <span class="rectangle-construction"> <img src="~/assets/rectangle.svg" alt=""> </span>
       </div>
-      <h4 class="text-bottom align-bottom">
-        COMING SOON...
+      <h4 class="text-bottom align-bottom animate__bounce">
+       THE FUTURE OF MARKETING
       </h4>
-    </div>
-  </div>
+      <b-button class="bottom-btn"> ENROLL NOW
+      </b-button>
+      </b-container>
+  </section>
 </template>
-
 <script>
 export default {
+  layout: 'homepage',
   data: () => ({
     img: 'polygon3.svg',
     computedDisplay: 'inline'
@@ -31,25 +28,32 @@ export default {
 </script>
 
 <style>
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
 .main{
-    background-color:#0F0F0F;
+    background: #242728;
     height:100vh;
     width:100%;
+    text-align: center;
+    position : relative;
+    padding-top: 80px;
 }
 .text-head{
     font-family: lovelo;
-    padding-top:20px;
+    padding-top:0px;
     font-size: 120px;
     color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+letter-spacing: 0.15em;
 }
 .text-bottom{
-    font-family: lovelo;
-    font-size: 30px;
+    font-family: Now;
+  font-size: 24px;
+line-height: 55px;
     color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+<<<<<<< Updated upstream
 padding-top: 70px;
 }
 .logoconstruction{
@@ -70,6 +74,15 @@ padding-top: 70px;
 text-align: center;
 padding: 0px;
 padding-bottom: 50px;
+=======
+padding-top: 20px;
+letter-spacing: 0.15em;
+}
+.loading-symbol{
+text-align: center;
+padding-bottom: 90px;
+height:100px;
+>>>>>>> Stashed changes
 }
 .polygon-construction{
 padding: 5px;
@@ -82,9 +95,24 @@ display: initial;
 }
 .ellipse-construction{
 padding: 5px;
+height:20px;
 }
 @keyframes vanish{
     from {display: initial;}
     to {display: none;}
+}
+.bottom-btn{
+  width:200px;
+ background: #242728;
+box-shadow: -7.55474px -7.55474px 10px rgba(56, 56, 56, 0.3), 7.55474px 7.55474px 10px rgba(2, 2, 2, 0.2);
+border-radius: 25px;
+  font-family: Now;
+  font-weight: 500;
+  font-size: 15.6719px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0);
 }
 </style>

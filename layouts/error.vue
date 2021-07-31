@@ -5,10 +5,14 @@
     <NuxtLink to="/">Home page</NuxtLink>
   </div>
 </template>
-
 <script>
 export default {
   props: ['error'],
   layout: 'default' // you can set a custom layout for the error page
 }
 </script>
+<style>
+.container{
+  text-align: center;
+}
+</style>

@@ -14,8 +14,8 @@
         <span class="ellipse-construction"> <img src="~/assets/ellipse.svg" alt=""> </span>
         <span class="rectangle-construction"> <img src="~/assets/rectangle.svg" alt=""> </span>
       </div>
-      <h4 class="text-bottom align-bottom">
-        COMING SOON...
+      <h4 class="text-bottom align-bottom animate__bounce">
+        COMING SOON
       </h4>
     </div>
   </div>
@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style>
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
 .main{
     background-color:#0F0F0F;
     height:100vh;
@@ -56,20 +57,23 @@ padding-top: 70px;
     align-content: center;
     text-align: center;
     width: auto;
+<<<<<<< Updated upstream
+=======
+    padding-top: 15px;
+>>>>>>> Stashed changes
 }
 .navbar-construction{
     background-color:#0F0F0F;
 }
 .construction-body{
-    padding-top: 150px;
+    padding-top: 90px;
     text-align: center;
     position : relative;
     bottom: 0;
 }
 .loading-symbol{
 text-align: center;
-padding: 0px;
-padding-bottom: 50px;
+padding-bottom: 90px;
 }
 .polygon-construction{
 padding: 5px;

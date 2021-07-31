@@ -2076,6 +2076,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bootstrap-icons-vue@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-icons-vue/-/bootstrap-icons-vue-0.7.0.tgz#c09e811f47944449435bcfacb252d27ce95cbe0f"
+  integrity sha512-bxdJB3GKJ1MaJxbMbK8xkM+EADELF1XYx9KLNFZD/k0Rt7Zp+h8h+zKe31npqHPr1UllRThiGxESs3e/EORiRg==
+
 bootstrap-vue@^2.21.2:
   version "2.21.2"
   resolved "https://registry.yarnpkg.com/bootstrap-vue/-/bootstrap-vue-2.21.2.tgz#ec38f66c3a2205becccddb6158a991d96509ed0b"

@@ -3,7 +3,52 @@
     src: local("Lovelo"),
      url(~/assets/fonts/LoveloBlack.ttf) format("truetype");
 }
+@font-face {
+    font-family: "Now";
+    src: local("Now-Regular"),
+     url(~/assets/fonts/Now-Bold.otf) format("truetype");
+}
 
 html {
     font-family: "Lovelo";
+}
+.section-head{
+    text-align: center;
+    font-family: Lovelo;
+    font-size: 48px;
+    line-height: 55.43px;
+    margin: 50px;
+    font-weight: 900;
+}
+.section-header{
+    text-align: center;
+    font-family: Lovelo;
+    font-size: 48px;
+    line-height: 55.43px;
+    font-weight: 900;
+}
+.black {
+    color:black;
+}
+.white{
+    color: white;
+}
+.navic-color{
+    background: linear-gradient(180deg, #00C2FF 0%, #3DFFA2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.btn-black{
+    width:200px;
+    background: #242728;
+   box-shadow: -7.55474px -7.55474px 10px rgba(56, 56, 56, 0.3), 7.55474px 7.55474px 10px rgba(2, 2, 2, 0.2);
+   border-radius: 25px;
+     font-family: Now;
+     font-weight: 500;
+     font-size: 15.6719px;
+     line-height: 63px;
+     text-align: center;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     border-color: rgba(0, 0, 0, 0);
 }
