@@ -9,7 +9,7 @@
     <p>Start Begin your journey with Level 1 of the EVOLVE program to prepare and train yourself for the future of marketing. With a curated selection of 10 starter subjects, Level 1 aims to develop your curiosity and find up your marketing game whilst you learn and adapt to the ever-changing environment.</p>
     <h1 class="priceevolvebox navic-color">₹14990</h1>
     <b-button-group>
-        <b-button class="btn-black"> Enroll Now </b-button>
+        <b-button href="/evolve/evolvei" class="btn-black"> Enroll Now </b-button>
         <b-button class="btn-black"> View Course</b-button>
     </b-button-group>
 </b-col>
@@ -21,6 +21,7 @@
 <li>1-to-1 feedback</li>
     </ul>
 </b-col>
+
 <b-col cols="4" class="rightevolvebox">
     <h2 class="rightseatscircle">$number SEATS</h2>
     <div class="countdownbox"> <p class="countdowntime"> 01 </p> <p class="countdowntime">12</p> <p class="countdowntime">56</p></div>
@@ -98,10 +99,10 @@ export default {
 }
 .evolve-box{
 color:#FFFFFF;
-background-image: url(.\assets\evolvebox.svg) ;
-background-size: contain;
-background-repeat: no-repeat;
+border: 1.5px solid;
+border-color: #21E3CE;
 padding: 0px 50px;
+margin: 50px;
 display: flexbox;
 }
 .rightseatcircle{

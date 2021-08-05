@@ -48,12 +48,12 @@ letter-spacing: 0.15em;
 }
 .text-bottom{
     font-family: Now;
-  font-size: 24px;
+  font-size: 25px;
 line-height: 55px;
     color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-padding-top: 70px;
+padding: 30px;
 }
 .logoconstruction{
     align-content: center;

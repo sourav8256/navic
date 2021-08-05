@@ -62,7 +62,7 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone:</span> +91 000000000
+                  <span class="color-text-a">Phone:</span> +91 9819948499
                 </li>
                 <li class="color-a">
                   <span class="color-text-a">Email:</span> hi@navic.com

@@ -1,6 +1,145 @@
 <template>
-  <section>
-  </section>
+    <b-container fluid class="level1 bg">
+    <h1 class="section-header white py-4" > EVOLVE Level-II </h1>
+<b-row class="">
+<b-col cols="8">
+  <b-row>
+    <b-col>
+      <ul>
+      <li> <b-icon icon="check-circle" variant="info"></b-icon> Batch limit -10 students </li>
+      <li> <b-icon icon="check-circle" variant="info"></b-icon> 10 Week Courses</li>
+      <li> <b-icon icon="check-circle" variant="info"></b-icon> 5 practicals</li>
+      </ul> </b-col>
+      <b-col><ul>
+      <li> <b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Sessions</li>
+      <li> <b-icon icon="check-circle" variant="info"></b-icon> Segregated Q&A sessions</li>
+      <li> <b-icon icon="check-circle" variant="info"></b-icon> 1-to-1 feedback</li>
+      </ul>
+      </b-col>
+  </b-row>
+  <b-row class="courseboxleft">
+    <h3>ABOUT</h3>
+    <p>Grow<br>
+Get deeper into the EVOLVE curriculum with Level 2. With a curated selection of 10 intermediate subjects, this course allows you to expand your knowledge base into becoming a Jack of All Trades of marketing.<br>
+EVOLVE-II is created for marketers by marketers. In a rapidly changing communications industry, EVOLVE aims to work with limited batches and grow your understanding about the future of marketing. Whether you come from Advertising, Digital Marketing, Public Relations or social media marketing, EVOLVE will add value to your personal marketing journey.
+ </p>
+<p>*Recommended to take the courses in sequence.
+<br>Next Batch: <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st August 2020 <b-icon icon="clock-history" variant="info"></b-icon>  6:30 to 7:30 PM, IST. </p>
+  </b-row>
+</b-col>
+<b-col cols="4" class="coursebar">
+  <div class="seatsleft">
+    <h2 class="navic-color"> 8/10 <br> SEATS LEFT</h2>
+    <b-progress height="2rem" width="2rem" :value="80" variant="info" striped :animated="animate" class="mt-2"></b-progress>
+    <br>
+    <br>
+    <h4> STARTS IN </h4>
+      <b-button class="seatbutton"> DAYS: <br>01</b-button>
+      <b-button class="seatbutton"> HOUR: <br>02</b-button>
+      <b-button class="seatbutton"> MINS: <br>03</b-button>
+      <br>
+      <br>
+      <h2 class="navic-color">₹24990</h2>
+      <b-button class="btn-black"> ENROLL NOW </b-button>
+  </div>
+</b-col>
+</b-row>
+  <h2 class="center">MODULES IN THIS COURSE</h2>
+<div>
+  <b-card-group>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/affliate.svg"
+    title="Money and Marketing">
+    </b-card>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/bot.svg"
+    title="Chatbots">
+    </b-card>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/digital.svg"
+    title="Sci-Fi realties">
+    </b-card>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/government.svg"
+    title="Social Media and Government">
+    </b-card>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/headset.svg"
+    title="Virtual Assistants">
+    </b-card>
+  </b-card-group>
+  <b-card-group>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/immersive.svg"
+    title="VR and AR">
+    </b-card>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/money.svg"
+    title="Affiliate and Influencer Marketing">
+    </b-card>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/open.svg"
+    title="The World of OpenSource">
+    </b-card>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/secure-data.svg"
+    title="Digital Safety Net">
+    </b-card>
+    <b-card
+    class="coursecard"
+    bg-variant="dark"
+    text-variant="white"
+    img-src="~/assets/evolve2/troll.svg"
+    title="Trolls and Bots">
+    </b-card>
+  </b-card-group>
+</div>
+<div class="coursebottom">
+    <h4> STARTS IN </h4>
+  <br>
+      <b-button class="seatbutton"> DAYS: <br>01</b-button>
+      <b-button class="seatbutton"> HOURS: <br>02</b-button>
+      <b-button class="seatbutton"> MINS: <br>03</b-button>
+      <br>
+      <br>
+      <h2 class="navic-color">₹24990</h2>
+      <br>
+      <b-button class="btn-black"> ENROLL NOW </b-button>
+</div>
+<h2 class="center py-6"> Who is EVOLVE-II made for? </h2>
+<div class="for center py-4">
+  <b-img src="~/assets/pro.svg"></b-img>
+  <b-img src="~/assets/stu.svg"></b-img>
+  <b-img src="~/assets/buis.svg"></b-img>
+</div>
+    </b-container>
 </template>
 
 <script>
@@ -10,5 +149,47 @@ export default {
 </script>
 
 <style>
-
+.level1{
+  display: flexbox;
+  color:white;
+  padding:0px 100px;
+}
+ul {
+  list-style-type: none;
+}
+li{
+list-style-image: url ('.\assets\circle-ok.svg');
+}
+.coursebar{
+  text-align: center;
+}
+.progress{
+  border-radius: 20px;
+}
+.courseboxleft{
+  text-align: left;
+}
+.coursebottom{
+  text-align: center;
+  padding: 20px;
+}
+.seatbutton{
+background: #242728;
+box-shadow: inset -4.8254px -4.8254px 4.8254px rgba(68, 68, 68, 0.25), inset 4.8254px 4.8254px 4.8254px rgba(2, 2, 2, 0.15);
+border-radius: 48.254px;
+}
+.coursecard{
+  text-align: center;
+  padding: 20px 20px;
+  margin:20px;
+}
+.card-title{
+  font-size:18px;
+}
+.card-img{
+  height:100px;
+}
+.for{
+  align-content: center;
+}
 </style>

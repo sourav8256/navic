@@ -17,6 +17,7 @@
     align-items: center;
     align-content: center;
     padding:50px 10% ;
+    background: white;
 }
 .section-head{
     text-align: center;

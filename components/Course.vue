@@ -3,74 +3,65 @@
 <h1 class="section-head white">Courses</h1>
 <b-row>
         <b-col class="sectionrow-box">
-            <b-row>
-            <p class="course-title"> EVOLVEGo </p>
-            </b-row>
-            <b-row>
-            <p class="price navic-color" >from ₹990</p>
+<h2 class="course-title"> EVOLVEGo </h2>
+<br>
+            <h3 class="price navic-color" >from ₹990</h3>
+
             <img src="~/assets/courseline.svg">
-             </b-row>
-                <ul >
-                    <li>2 Hours Workshop</li>
-                    <li>Segregated QA sessions</li>
-                    <li>Live Interactive Session</li>
+                <ul>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 2 Hours Workshop </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
                 </ul>
-            <b-row><b-button class="btn-black">KNOW MORE</b-button></b-row>
+<b-button class="btn-black">KNOW MORE</b-button>
+        </b-col>
+        <b-col class="sectionrow-box">
+<h2 class="course-title"> EVOLVE I, II & III </h2>
+<br>
+            <h3 class="price navic-color" >from ₹14990</h3>
+
+            <img src="~/assets/courseline.svg">
+                <ul>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 10 Week Courses </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 10 Subjects </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 10 Assignments & 3 Projects </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Individual feedback </li>
+                </ul>
+<b-button class="btn-black">KNOW MORE</b-button>
+        </b-col>
+        <b-col class="sectionrow-box">
+<h2 class="course-title"> EVOLVEPrep </h2>
+<br>
+            <h3 class="price navic-color" >from ₹4990</h3>
+
+            <img src="~/assets/courseline.svg">
+                <ul>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 5 day career prep curriculum </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 2 Live projects </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Individual student feedback </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Individual feedback </li>
+                </ul>
+<b-button class="btn-black">KNOW MORE</b-button>
         </b-col>
                 <b-col class="sectionrow-box">
-            <b-row>
-            <p class="course-title"> EVOLVE I, II & III </p>
-            </b-row>
-            <b-row>
-            <p class="price navic-color" >From ₹14990 </p>
-            <img src="~/assets/courseline.svg">
-             </b-row>
-                <ul >
-                    <li>10 Week Courses</li>
-                    <li>10 Subjects</li>
-                    <li>Segregated Q&A sessions</li>
-                    <li>Live Interactive Sessions</li>
-                    <li>10 Assignments & 3 Projects </li>
-                    <li>Individual feedback</li>
-                </ul>
-            <b-row><b-button class="btn-black">KNOW MORE</b-button></b-row>
-        </b-col>
+<h2 class="course-title"> EVOLVEPro </h2>
+<br>
+            <h3 class="price navic-color" >Price On Request</h3>
 
-        <b-col class="sectionrow-box">
-            <b-row>
-            <p class="course-title"> EVOLVEPrep </p>
-            </b-row>
-            <b-row>
-            <p class="price navic-color" >from ₹4990</p>
             <img src="~/assets/courseline.svg">
-             </b-row>
-                <ul >
-                    <li>5 day career prep curriculum</li>
-                    <li>Segregated QA sessions</li>
-                    <li>Live Interactive Session</li>
-                    <li>2 Live projects</li>
-                    <li>Individual student feedback</li>
+                <ul>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Customized Course </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 5 or more subjects </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Segregated Q&A sessions </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Projects </li>
+                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Individual employee feedback</li>
                 </ul>
-            <b-row><b-button class="btn-black">KNOW MORE</b-button></b-row>
-        </b-col>
-
-        <b-col class="sectionrow-box">
-            <b-row>
-            <p class="course-title"> EVOLVEPro </p>
-            </b-row>
-            <b-row>
-            <p class="price navic-color" >Price On Request</p>
-            <img src="~/assets/courseline.svg">
-             </b-row>
-                <ul >
-                    <li>Customized Course</li>
-                    <li>5 or more subjects </li>
-                    <li>Live Interactive Session</li>
-                    <li>Segregated Q&A sessions</li>
-                    <li>Live Projects</li>
-                    <li>Individual employee feedback</li>
-                </ul>
-            <b-row><b-button class="btn-black">CUSTOMIZE NOW</b-button></b-row>
+<b-button class="btn-black btn-bottom">CUSTOMIZE NOW</b-button>
         </b-col>
 </b-row>
 </section>
@@ -82,6 +73,7 @@
     width: 100%;
     background: #242728;
     padding:50px;
+    text-align: center;
 }
 .sub-col{
     font-family: Now;
@@ -103,45 +95,19 @@
     text-align: justify;
 }
 .sectionrow-box{
-    background-image: url(.\assets\coursebg.svg) ;
-    background-size: contain;
-    background-repeat: no-repeat;
+    border: 1.5px solid;
+    border-color: #21E3CE;
     font-family: Now;
     color:white;
     align-content:center;
     height: 552px;
     width: 276px;
     text-align: center;
-    margin:10px;
+    margin:15px;
+    padding:20px;
 
 }
-.course-btn{
-  width:150px;
-  box-shadow: 7.554744243621826px 7.554744243621826px 10px 0px rgba(2, 2, 2, 0.5);
-  box-shadow: -7.554744243621826px -7.554744243621826px 10px 0px rgba(56, 56, 56, 0.15);
-  background: rgba(15, 15, 15, 1);
-  background: #0F0F0F;
-  box-shadow: -7.55474px -7.55474px 10px rgba(56, 56, 56, 0.15), 7.55474px 7.55474px 10px rgba(2, 2, 2, 0.5);
-  border-radius: 25.1825px;
-  font-family: Now;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  border-color: rgba(0, 0, 0, 0);
-  margin:20px;
-}
-.course-title{
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 55px;
-letter-spacing: 0em;
-text-align: center;
 
-}
 .course-list{
     align-content: center;
     text-align: left;
@@ -203,4 +169,8 @@ color:#3DFFA2;
     .textbox-left{
         margin-left: 0px;
     }
+.btn-bottom{
+    align-content: flex-end;
+    bottom: 0px;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
   <section class="about-main">
       <b-container>
-      <h1> ABOUT NAVIC </h1>
+      <h1 class="section-header"> ABOUT NAVIC </h1>
       <h3>“Some of the brightest minds in our country can be found on the last benches of the classroom.” </h3> <h3> Dr. APJ Abdul Kalam</h3>
       <b-row>
       <p>Curiosity is a powerful thing. In the dynamic field of marketing, it could become your biggest strength. At NAVIC, we help you stay curious.
@@ -17,7 +17,7 @@ Let’s learn something new.
       </p>
       </b-row>
       <b-row>
-          <h1>WHAT IS EVOLVE</h1>
+          <h1 style="padding-left:120px;">WHAT IS EVOLVE</h1>
       </b-row>
       <b-row>
           <b-col> <h3>Part 1 - Here and Now Evolve </h3>
@@ -61,6 +61,8 @@ export default {
 
 <style>
 .about-main{
-    background: black;
+    text-align: left;
+    color: white;
+    padding: 20px;
 }
 </style>

@@ -73,4 +73,7 @@ a:hover {
   color: rgba(218, 42, 100, 0.596);
   text-decoration: none;
 }
+body{
+background: #242728;
+}
 </style>

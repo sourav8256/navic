@@ -38,6 +38,7 @@ box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.2);
     text-align: center;
     width: auto;
     margin: 0px 30px;
+    padding: 0px;
 }
 @media screen and (max-width: 600px)  {
   .logoconstruction{

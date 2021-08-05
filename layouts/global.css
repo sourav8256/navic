@@ -52,3 +52,12 @@ html {
      color: #FFFFFF;
      border-color: rgba(0, 0, 0, 0);
 }
+.bg{
+    background: #242728;
+}
+.center{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+  }

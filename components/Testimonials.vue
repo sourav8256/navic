@@ -10,8 +10,8 @@
         align="center"
         img-src="~/assets/testimonials1.jpg"
         img-alt="Image"
-        title="NAMEABC"
-        text-variant="light"
+        title="Anupama Basi"
+        text-variant="dark"
         class= "flip-card-inner"
         ></b-card>
         </div>
@@ -22,7 +22,7 @@
         align="center"
         img-src="~/assets/testimonials2.jpg"
         img-alt="Image"
-        title="NAMEABC"
+        title="Rohan Ghosh"
         text-variant="light"
         class= "flip-card-inner"
         ></b-card> </div>
@@ -33,8 +33,8 @@
         align="center"
         img-src="~/assets/testimonials7.jpg"
         img-alt="Image"
-        title="NAMEABC"
-        text-variant="light"
+        title="Ritika Amesh"
+        text-variant="dark"
         class= "flip-card-inner"
         ></b-card>
         </div>
@@ -49,8 +49,8 @@
         align="center"
         img-src="~/assets/testimonials3.jpg"
         img-alt="Image"
-        title="NAMEABC"
-        text-variant="light"
+        title="Ambuja Pathak"
+        text-variant="dark"
         class= "flip-card-inner"
         ></b-card>
         </div>
@@ -61,8 +61,8 @@
         align="center"
         img-src="~/assets/testimonials4.jpg"
         img-alt="Image"
-        title="NAMEABC"
-        text-variant="light"
+        title="Rakesh Sethi"
+        text-variant="dark"
         class= "flip-card-inner"
         ></b-card> </div>
         <div class="flip-card">
@@ -72,8 +72,8 @@
         align="center"
         img-src="~/assets/testimonials5.jpg"
         img-alt="Image"
-        title="NAMEABC"
-        text-variant="light"
+        title="Vaishnavi Karnik"
+        text-variant="dark"
         class= "flip-card-inner"
         ></b-card>
         </div>
@@ -84,8 +84,9 @@
 </template>
 <style>
 .testimonials{
-  height: 150vh;
+  height: 100%;
   display: flex;
+  background: white;
 }
 .b-card{
   height:300px;
@@ -95,7 +96,7 @@
 text-align: center;
 display: flex;
 margin:auto;
-margin-top:250px;
+margin-top:80px;
 }
 .card-deck{
     margin:20px;
@@ -111,6 +112,7 @@ margin-top:250px;
   width: 300px;
   height: 300px;
   perspective: 1000px;
+  padding: 0px 50px;
 }
 
 .flip-card-inner {
