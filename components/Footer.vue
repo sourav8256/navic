@@ -12,13 +12,13 @@
               <div class="w-body-a">
                 <ul class="list-unstyled">
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">About</a>
+                    <i class="bi bi-chevron-right"></i> <a href="/about">About</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Media & Press</a>
+                    <i class="bi bi-chevron-right"></i> <a href="/media">Media & Press</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">FAQs</a>
+                    <i class="bi bi-chevron-right"></i> <a href="/faqs">FAQs</a>
                   </li>
                 </ul>
               </div>

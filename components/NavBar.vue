@@ -5,10 +5,10 @@
     </b-navbar-brand>
     <b-navbar-nav >
         <b-nav-item class="ml-auto" href="/about">ABOUT</b-nav-item>
-        <b-nav-item href="evolve">COURSES</b-nav-item>
-        <b-nav-item href="faqs">FAQ</b-nav-item>
-        <b-nav-item href="media">Media & Press</b-nav-item>
-        <b-nav-item href="login"><b-button class="navbar-button" variant="dark"> LOGIN</b-button></b-nav-item>
+        <b-nav-item href="/evolve">COURSES</b-nav-item>
+        <b-nav-item href="/faqs">FAQ</b-nav-item>
+        <b-nav-item href="/media">Media & Press</b-nav-item>
+        <b-nav-item href="/login"><b-button class="navbar-button" variant="dark"> LOGIN</b-button></b-nav-item>
     </b-navbar-nav>
   </b-navbar>
 </template>
