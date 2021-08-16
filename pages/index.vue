@@ -12,8 +12,7 @@
       <h4 class="text-bottom align-bottom animate__bounce">
        THE FUTURE OF MARKETING
       </h4>
-      <b-button class="bottom-btn"> ENROLL NOW
-      </b-button>
+      <b-button class="bottom-btn">KNOW MORE</b-button>
       </b-container>
   </section>
 </template>
@@ -35,25 +34,29 @@ export default {
     width:100%;
     text-align: center;
     position : relative;
-    padding-top: 80px;
+    padding-top: 3rem;
 }
 .text-head{
     font-family: lovelo;
     padding-top:0px;
-    font-size: 120px;
+    font-size: 92px;
     color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 letter-spacing: 0.15em;
 }
 .text-bottom{
-    font-family: Now;
-  font-size: 25px;
+ font-family: Now;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
 line-height: 55px;
-    color: ivory;
+letter-spacing: 0.15em;
+text-align: center;
+color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-padding: 30px;
+padding-bottom: 5rem;
 }
 .logoconstruction{
     align-content: center;
@@ -71,8 +74,7 @@ padding: 30px;
 }
 .loading-symbol{
 text-align: center;
-padding: 0px;
-padding-bottom: 50px;
+padding: 0.5em 0em 1em ;
 }
 .polygon-construction{
 padding: 5px;

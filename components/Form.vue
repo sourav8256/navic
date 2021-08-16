@@ -1,19 +1,23 @@
 <template>
   <b-container fluid class="form-main">
-      <h1 class="section-head white">DO YOU HAVE ANY QUESTION?</h1>
+      <h1 class="section-head white">SAY HI</h1>
       <div class="formbody">
  <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+   <div class="row">
+     <div class="col">
       <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
         <b-form-input
           id="input-2"
           v-model="form.name"
-          placeholder="Enter name"
+          placeholder="Name"
           required
         ></b-form-input>
       </b-form-group>
+     </div>
+      <div class="col">
            <b-form-group
         id="input-group-1"
-        label="Email address:"
+        label="Email address"
         label-for="input-1"
         description="We'll never share your email with anyone else."
       >
@@ -25,15 +29,17 @@
           required
         ></b-form-input>
       </b-form-group>
-      <b-form-group id="input-group-5" label="Subject:" label-for="input-5">
+      </div>
+   </div>
+      <b-form-group id="input-group-5" label="Subject" label-for="input-5">
         <b-form-input
-          id="input-5"
+          id="input-4"
           v-model="form.message"
           placeholder="Enter Subject"
           required
         ></b-form-input>
       </b-form-group>
-      <b-form-group id="input-group-5" label="Your Message:" label-for="input-5">
+      <b-form-group id="input-group-5" label="Your Message" label-for="input-5">
         <b-form-input
           id="input-5"
           v-model="form.message"
@@ -113,10 +119,16 @@ export default {
     background: #242728;
     color:white;
     align-items: center;
-    text-align: center;
+    text-align: left;
     padding: 50px;
 }
 .formbody{
   margin:0px 300px;
+}
+.form-control{
+background: #242728;
+}
+#input-5{
+  height: 200px;
 }
 </style>

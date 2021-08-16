@@ -1,15 +1,18 @@
 <template>
-<b-navbar type="dark" toggleable="sm" class="navbar">
+<b-navbar type="dark" toggleable="lg" class="navbar">
     <b-navbar-brand href="/">
       <img class="logoconstruction" src="~/assets/vector.svg" alt="NavicLogo">
     </b-navbar-brand>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+     <b-collapse id="nav-collapse" is-nav>
     <b-navbar-nav >
         <b-nav-item class="ml-auto" href="/about">ABOUT</b-nav-item>
-        <b-nav-item href="/evolve">COURSES</b-nav-item>
+        <b-nav-item href="/#course">COURSES</b-nav-item>
         <b-nav-item href="/faqs">FAQ</b-nav-item>
-        <b-nav-item href="/media">Media & Press</b-nav-item>
-        <b-nav-item href="/login"><b-button class="navbar-button" variant="dark"> LOGIN</b-button></b-nav-item>
+        <b-nav-item href="/media">MEDIA & PRESS</b-nav-item>
+        <b-nav-item href="/login"><b-button class="navbar-button" variant="dark">SIGN IN</b-button></b-nav-item>
     </b-navbar-nav>
+     </b-collapse>
   </b-navbar>
 </template>
 
@@ -40,6 +43,7 @@ box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.2);
     margin: 0px 30px;
     padding: 0px;
 }
+
 @media screen and (max-width: 600px)  {
   .logoconstruction{
     height: 80px;
@@ -68,4 +72,10 @@ color: rgb(255, 255, 255);
   color: #ffffff !important;
 }
 
+@media screen and (max-width: 600px) {
+.navbar-collapse{
+  text-align: right;
+  padding-left:76%;
+}
+}
 </style>

@@ -53,12 +53,6 @@
             <div class="w-header-a">
               <h3 class="w-title-a text-brand">Contact Us</h3>
             </div>
-            <div class="w-body-a">
-              <span class="color-text-a">Location:</span>
-              <p class="w-text-a color-text-a">
-                211 ABC street, <br>Mumbai, 446010
-              </p>
-            </div>
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
@@ -81,7 +75,6 @@
   background: #f3f3f3;
   text-align: center;
 }
-
 .section-footer ul {
   line-height: 2;
 }

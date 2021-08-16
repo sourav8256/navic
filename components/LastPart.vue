@@ -6,17 +6,17 @@
           <div class="socials-a">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="www.facebook.com/globous.realty/">
+                <a href="https://www.facebook.com/Naviclearn098">
                   <b-icon icon="facebook" aria-hidden="true"></b-icon>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="www.instagram.com/globus.realty/">
+                <a href="https://www.instagram.com/naviclearn/">
                   <b-icon icon="instagram" aria-hidden="true"></b-icon>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="www.linkenin.com/globous.realty/">
+                <a href="https://www.linkedin.com/in/navic-learn-2aa5a3218">
                   <b-icon icon="linkedin" aria-hidden="true"></b-icon>
                 </a>
               </li>

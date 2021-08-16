@@ -8,6 +8,16 @@
     src: local("Now-Regular"),
      url(~/assets/fonts/Now-Bold.otf) format("truetype");
 }
+@font-face {
+    font-family: "NowThin";
+    src: local("Now-Thin"),
+     url(~/assets/fonts/Now-Thin.otf) format("truetype");
+}
+@font-face {
+    font-family: "Bradon Grotesque";
+    src: local("Bradon Grotesque"),
+     url(~/assets/fonts/brandon.otf) format("truetype");
+}
 
 html {
     font-family: "Lovelo";
@@ -17,7 +27,7 @@ html {
     font-family: Lovelo;
     font-size: 48px;
     line-height: 55.43px;
-    margin: 50px;
+    padding:1rem;
     font-weight: 900;
 }
 .section-header{
@@ -45,12 +55,29 @@ html {
    border-radius: 25px;
      font-family: Now;
      font-weight: 500;
-     font-size: 15.6719px;
+     font-size: 16px;
      line-height: 63px;
      text-align: center;
      text-transform: uppercase;
      color: #FFFFFF;
      border-color: rgba(0, 0, 0, 0);
+}
+.white-btn{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Now;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 39px;
+    display: initial;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #242728;
+    width: 124px;
 }
 .bg{
     background: #242728;
@@ -61,3 +88,32 @@ html {
 ul {
     list-style-type: none;
   }
+.box-bg{
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #21E3CE;
+    align-content:center;
+    height:585px;
+    width: 276px;
+    text-align: center;
+    margin:15px;
+    padding:20px;
+}
+.b-icon {
+padding:0rem 1.2rem 0 0;
+background: linear-gradient(180deg, #00C2FF 0%, #3DFFA2 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;  
+}
+.alignleft{
+    text-align: left !important;
+}
+.contenttextpg{
+    font-family: NowThin;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;    
+}

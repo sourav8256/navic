@@ -1,153 +1,171 @@
 <template>
-<section class="testimonials">
-    <b-container fluid>
+<section class="testimonials justify-content-center py-5">
         <h1 class="section-head"> Meet our Students</h1>
-        <b-card-group deck>
-        <div class="flip-card">
-        <b-card
-        overlay
-        border-variant="light"
-        align="center"
-        img-src="~/assets/testimonials1.jpg"
-        img-alt="Image"
-        title="Anupama Basi"
-        text-variant="dark"
-        class= "flip-card-inner"
-        ></b-card>
+        <div class="mt-5 px-5">
+        <b-row>
+            <b-col cols="3">
+                            <div class="maincard ">
+                <div class="thecard">
+                    <div class="thefront text-center py-4"> <img src="~/assets/testimonials1.jpg" class="rounded-circle " width="220">
+                        <h3 class="mt-2 mb-0 stuname">Sanika Newaskar</h3>
+                    </div>
+                    <div class="theback py-3 px-3">
+                        <div class="quote mt-3">
+                            <h4 style="text-align:center;"><b-icon icon="chat-left-quote" scale="10" variant="info"></b-icon></h4>
+                            <p class="quote p-2">" IT'S ONE OF THE MOST ENGAGING
+COURSES I HAVE TAKEN. THE NEWS
+SESSION ESPECIALLY WAS REALLY
+INTRIGUING. I GOT TO LEARN MANY THINGS
+WHICH I NEVER WONDERED ABOUT
+BEFORE. THE SHOW RECOMMENDATIONS
+WERE EXCITING AS WELL!
+"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </b-col>
+             <b-col cols="3">
+                            <div class="maincard ">
+                <div class="thecard">
+                    <div class="thefront text-center py-4"> <img src="~/assets/testimonials7.jpg" class="rounded-circle " width="220">
+                        <h3 class="mt-2 mb-0 stuname">Vani Krishna</h3>
+                    </div>
+                    <div class="theback py-3 px-3">
+                        <div class="quote mt-3">
+                            <h4 style="text-align:center;"><b-icon icon="chat-left-quote" scale="10" variant="info"></b-icon></h4>
+                            <p class="quote p-2">" THE SESSIONS WERE SO ENRICHING AND
+INFORMATIVE. WHAT I LIKE THE MOST ABOUT THIS
+SESSION IS THAT THE ELEGANT AND SIMPLE
+PRESENTATION OF EACH MODULE. NEWS INTRO AT
+THE BEGINNING OF EACH SESSION IS ALSO A NEW
+APPROACH WHICH MAKES THE COURSE MORE
+ATTRACTIVE. "</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </b-col>
+            <b-col cols="3">
+                            <div class="maincard ">
+                <div class="thecard">
+                    <div class="thefront text-center py-4"> <img src="~/assets/testimonials2.jpg" class="rounded-circle " width="220">
+                        <h3 class="mt-2 mb-0 stuname">Sourav Kanungo</h3>
+                    </div>
+                    <div class="theback py-3 px-3">
+                        <div class="quote mt-3">
+                            <h4 style="text-align:center;"><b-icon icon="chat-left-quote" scale="10" variant="info"></b-icon></h4>
+                            <p class="quote p-2">" INSIGHTFUL AND MADE FOR GEN Z
+PROFESSIONALS LIKE US. THE
+REGULAR NEWS UPDATES SHARED
+IN THE BEGINNING OF EVERY
+SESSION IS REALLY INTERESTING.
+LOVE THE SELECTION OF TOPICS
+TOO! "</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </b-col>
+            <b-col cols="3">
+                            <div class="maincard ">
+                <div class="thecard">
+                    <div class="thefront text-center py-4"> <img src="~/assets/testimonials10.jpg" class="rounded-circle " width="220">
+                        <h3 class="mt-2 mb-0 stuname">Khushi Rawat</h3>
+                    </div>
+                    <div class="theback py-3 px-3">
+                        <div class="quote mt-3">
+                            <h4 style="text-align:center;"><b-icon icon="chat-left-quote" scale="10" variant="info"></b-icon></h4>
+                            <p class="quote p-2">" THE COURSE GIVES YOU AN
+INSIGHT INTO WHERE THE
+WORLD IS HEADED,
+DEFINITELY BROADENS
+YOUR HORIZON. "</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </b-col>
+        </b-row>
         </div>
-        <div class="flip-card">
-        <b-card
-        overlay
-        border-variant="light"
-        align="center"
-        img-src="~/assets/testimonials2.jpg"
-        img-alt="Image"
-        title="Rohan Ghosh"
-        text-variant="light"
-        class= "flip-card-inner"
-        ></b-card> </div>
-        <div class="flip-card">
-        <b-card
-        overlay
-        border-variant="light"
-        align="center"
-        img-src="~/assets/testimonials7.jpg"
-        img-alt="Image"
-        title="Ritika Amesh"
-        text-variant="dark"
-        class= "flip-card-inner"
-        ></b-card>
-        </div>
-      </b-card-group>
-       <b-button v-b-toggle.collapse-a class="btn-testimonials">KNOW MORE</b-button>
-        <b-collapse id="collapse-a" class="mt-2">
-         <b-card-group deck>
-        <div class="flip-card">
-        <b-card
-        overlay
-        border-variant="light"
-        align="center"
-        img-src="~/assets/testimonials3.jpg"
-        img-alt="Image"
-        title="Ambuja Pathak"
-        text-variant="dark"
-        class= "flip-card-inner"
-        ></b-card>
-        </div>
-        <div class="flip-card">
-        <b-card
-        overlay
-        border-variant="light"
-        align="center"
-        img-src="~/assets/testimonials4.jpg"
-        img-alt="Image"
-        title="Rakesh Sethi"
-        text-variant="dark"
-        class= "flip-card-inner"
-        ></b-card> </div>
-        <div class="flip-card">
-        <b-card
-        overlay
-        border-variant="light"
-        align="center"
-        img-src="~/assets/testimonials5.jpg"
-        img-alt="Image"
-        title="Vaishnavi Karnik"
-        text-variant="dark"
-        class= "flip-card-inner"
-        ></b-card>
-        </div>
-      </b-card-group>
-      </b-collapse>
-    </b-container>
     </section>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
 <style>
 .testimonials{
   height: 100%;
-  display: flex;
+  display:block;
   background: white;
 }
-.b-card{
-  height:300px;
-  width:300px;
+.maincard {
+    position: relative;
+    width: 300px;
+    height: 300px
 }
-.btn-testimonials{
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease
+}
+
+.thecard:hover {
+    transform: rotateY(180deg)
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hidden;
+    background: #adb5bd;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: -7.55474px -7.55474px 10px rgba(56, 56, 56, 0.3), 7.55474px 7.55474px 10px rgba(2, 2, 2, 0.2);
+    padding: 10px
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: hidden;
+    background: gray;
+    color: #fff;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: -7.55474px -7.55474px 10px rgba(56, 56, 56, 0.3), 7.55474px 7.55474px 10px rgba(2, 2, 2, 0.2);
+    padding: 10px
+}
+.stuname{
+    font-family: Now;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
 text-align: center;
-display: flex;
-margin:auto;
-margin-top:80px;
-}
-.card-deck{
-    margin:20px;
-    padding:0px 120px;
-}
-.card-deck :hover{
-    color: tomato;
-    animation: spin 2s ease 0.1 reverse ;
-}
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-  padding: 0px 50px;
 }
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
-}
-.collapse-a{
-display: flex;
+.quote {
+    font-family: NowThin;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align:center;
 }
 </style>

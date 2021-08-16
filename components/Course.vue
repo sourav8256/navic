@@ -1,79 +1,107 @@
 <template>
-<section class="course-body">
+<section id="course" class="course-body">
 <h1 class="section-head white">Courses</h1>
 <b-row>
-        <b-col class="sectionrow-box">
+        <b-col class="box-bg">
+            <div> </div>
 <h2 class="course-title"> EVOLVEGo </h2>
-<br>
-            <h3 class="price navic-color" >from ₹990</h3>
-
+            <h3 class="price navic-color"><div style="font-size:12px">from &nbsp;</div>₹990</h3>
+<div>
             <img src="~/assets/courseline.svg">
+</div>
                 <ul>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 2 Hours Workshop </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> 2 Hours Workshop </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
                 </ul>
-<b-button class="btn-black">KNOW MORE</b-button>
+<b-button class="btn-black coursebtn">KNOW MORE</b-button>
         </b-col>
-        <b-col class="sectionrow-box">
+        <b-col class="box-bg">
+            <div> </div>
 <h2 class="course-title"> EVOLVE I, II & III </h2>
-<br>
-            <h3 class="price navic-color" >from ₹14990</h3>
-
+             <h3 class="price navic-color"><div style="font-size:12px">from &nbsp;</div>₹14990</h3>
+<div>
             <img src="~/assets/courseline.svg">
+</div>
                 <ul>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 10 Week Courses </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 10 Subjects </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 10 Assignments & 3 Projects </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Individual feedback </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> 10 Week Courses </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> 10 Subjects </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> 10 Assignments & 3 Projects </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Individual feedback </li>
                 </ul>
-<b-button class="btn-black">KNOW MORE</b-button>
+<b-button class="btn-black coursebtn">KNOW MORE</b-button>
         </b-col>
-        <b-col class="sectionrow-box">
+        <b-col class="box-bg">
+            <div> </div>
 <h2 class="course-title"> EVOLVEPrep </h2>
-<br>
-            <h3 class="price navic-color" >from ₹4990</h3>
-
+            <h3 class="price navic-color"><div style="font-size:12px"></div>₹4990</h3>
+<div>
             <img src="~/assets/courseline.svg">
+</div>
                 <ul>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 5 day career prep curriculum </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 2 Live projects </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Individual student feedback </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Individual feedback </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> 5 day career prep curriculum </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> 2 Live projects </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Individual student feedback </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Individual feedback </li>
                 </ul>
-<b-button class="btn-black">KNOW MORE</b-button>
+<b-button class="btn-black coursebtn">KNOW MORE</b-button>
         </b-col>
-                <b-col class="sectionrow-box">
+                <b-col class="box-bg">
+                    <div> </div>
 <h2 class="course-title"> EVOLVEPro </h2>
-<br>
-            <h3 class="price navic-color" >Price On Request</h3>
-
+            <h3 class="price navic-color"><div style="font-size:12px"></div>Price On Request</h3>
+<div>
             <img src="~/assets/courseline.svg">
+</div>
                 <ul>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Customized Course </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> 5 or more subjects </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Segregated Q&A sessions </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Live Projects </li>
-                    <li style="text-align:left; font-size:16px;"><b-icon icon="check-circle" variant="info"></b-icon> Individual employee feedback</li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Customized Course </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> 5 or more subjects </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Segregated Q&A sessions </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Live Projects </li>
+                    <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Individual employee feedback</li>
                 </ul>
-<b-button class="btn-black btn-bottom">CUSTOMIZE NOW</b-button>
+<b-button class="btn-black coursebtn">CUSTOMIZE NOW</b-button>
         </b-col>
 </b-row>
 </section>
 </template>
 
 <style scoped>
+
 .course-body{
-    height: 130vh;
+    height: 100%;
     width: 100%;
     background: #242728;
-    padding:50px;
+    padding:3rem;
     text-align: center;
+}
+.course-title{
+    font-family: Brandon Grotesque;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 55px;
+/* or 231% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.price{
+font-family: Now;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 55px;
+/* identical to box height, or 462% */
+text-align: center;
+text-transform: capitalize;
+display: inline-flex;
 }
 .sub-col{
     font-family: Now;
@@ -86,26 +114,15 @@
     color: white;
     text-align: left;
     margin:10px;
-    padding-top:30px;}
+    padding-top:30px;
+    }
+
 .sub-text{
     padding: 10px;
 }
 .text-column{
     font-size: 14px;
     text-align: justify;
-}
-.sectionrow-box{
-    border: 1.5px solid;
-    border-color: #21E3CE;
-    font-family: Now;
-    color:white;
-    align-content:center;
-    height: 552px;
-    width: 276px;
-    text-align: center;
-    margin:15px;
-    padding:20px;
-
 }
 
 .course-list{
@@ -117,16 +134,15 @@
     padding: 10px;
     text-transform: uppercase;
 }
-.text-color{
-    background-color: linear-gradient(180deg, #00C2FF 0%, #3DFFA2 100%);
-    font-family: Now;
+.liitem{
+    font-family: NowThin;
 font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 26px;
-text-align: center;
-text-transform: uppercase;
-color:#3DFFA2;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align:left;
+align-items: center;
+color: #FFFFFF;
 }
 .seats-time{
     display: inline-flex;
@@ -169,8 +185,13 @@ color:#3DFFA2;
     .textbox-left{
         margin-left: 0px;
     }
-.btn-bottom{
-    align-content: flex-end;
-    bottom: 0px;
+.coursebtn{
+    position:absolute;
+    bottom: 21px;
+    left: 42px;
+}
+.box-bg{
+    font-family: Now;
+    color:white;
 }
 </style>

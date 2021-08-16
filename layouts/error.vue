@@ -13,6 +13,6 @@ export default {
 </script>
 <style>
 .container{
-  text-align: center;
+  text-align: inherit;
 }
 </style>

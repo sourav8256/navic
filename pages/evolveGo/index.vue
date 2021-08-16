@@ -4,27 +4,30 @@
     <div class="evolve-box">
         <b-row>
 <b-col cols="6" class="leftevolvego">
-    <h1> AI IN COMMUNICATION</h1>
-    <p> Starting off!<br>
+    <h1 class="gohead py-2"> AI IN COMMUNICATION</h1>
+    <p class="contexttextpg">
+         Starting off!<br>
 Get a taste of the EVOLVE program with our EVOLVEGo workshops. Interactive, focused
 And curated for marketers.<br>
 Find Answers to questions like
 </p>
-<p>Types of AI ?<br>           What is AI ?<br>
-  What is ML?       <br>        What can AI do ?<br>
-  Who uses AI ?       <br>      Most used AI ?<br>
+<p class="contexttextpg">
+    <b-row>
+        <b-col cols="4" class="py-2" > Types of AI ?<br> What is AI ?<br> What is ML?</b-col>
+        <b-col cols="4" class="py-2" > What can AI do ?<br> Who uses AI ?<br> Most used AI ? </b-col>
+    </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹990</h1>
         <b-button href="/login" class="btn-black"> Enroll Now </b-button>
 </b-col>
 <b-col cols="6" >
     <div class="rightevolvego">
-     <img src="~assets/evolve3/ai.svg">
+<div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
      <ul class="listleft">
-         <li><b-icon icon="calendar3" variant="info"></b-icon>   Sunday, 1st August 2021 </li>
-          <li><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
-           <li><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
-            <li><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
+        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Sunday, 1st August 2021 </li>
+        <li class="listitemgo"><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
+        <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
+        <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
      </ul>
   </div>
 </b-col>
@@ -34,56 +37,62 @@ Find Answers to questions like
     <div class="evolve-box">
         <b-row>
 <b-col cols="6" class="leftevolvego">
-    <h1> AI IN COMMUNICATION</h1>
-    <p> Starting off!<br>
+    <h1 class="gohead py-2"> AI IN COMMUNICATION</h1>
+    <p class="contexttextpg">
+         Starting off!<br>
 Get a taste of the EVOLVE program with our EVOLVEGo workshops. Interactive, focused
 And curated for marketers.<br>
 Find Answers to questions like
 </p>
-<p>Types of AI ?<br>           What is AI ?<br>
-  What is ML?       <br>        What can AI do ?<br>
-  Who uses AI ?       <br>      Most used AI ?<br>
+<p class="contexttextpg">
+    <b-row>
+        <b-col cols="4" class="py-2" > Types of AI ?<br> What is AI ?<br> What is ML?</b-col>
+        <b-col cols="4" class="py-2" > What can AI do ?<br> Who uses AI ?<br> Most used AI ? </b-col>
+    </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹990</h1>
         <b-button href="/login" class="btn-black"> Enroll Now </b-button>
 </b-col>
 <b-col cols="6" >
     <div class="rightevolvego">
-     <img src="~assets/evolve3/ai.svg">
+        <div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
      <ul class="listleft">
-         <li><b-icon icon="calendar3" variant="info"></b-icon>   Sunday, 1st August 2021 </li>
-          <li><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
-           <li><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
-            <li><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
+        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Sunday, 1st August 2021 </li>
+        <li class="listitemgo"><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
+        <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
+        <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
      </ul>
   </div>
 </b-col>
         </b-row>
     </div>
-    <div class="evolve-box">
+        <div class="evolve-box">
         <b-row>
 <b-col cols="6" class="leftevolvego">
-    <h1> AI IN COMMUNICATION</h1>
-    <p> Starting off!<br>
+    <h1 class="gohead py-2"> AI IN COMMUNICATION</h1>
+    <p class="contexttextpg">
+         Starting off!<br>
 Get a taste of the EVOLVE program with our EVOLVEGo workshops. Interactive, focused
 And curated for marketers.<br>
 Find Answers to questions like
 </p>
-<p>Types of AI ?<br>           What is AI ?<br>
-  What is ML?       <br>        What can AI do ?<br>
-  Who uses AI ?       <br>      Most used AI ?<br>
+<p class="contexttextpg">
+    <b-row>
+        <b-col cols="4" class="py-2" > Types of AI ?<br> What is AI ?<br> What is ML?</b-col>
+        <b-col cols="4" class="py-2" > What can AI do ?<br> Who uses AI ?<br> Most used AI ? </b-col>
+    </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹990</h1>
         <b-button href="/login" class="btn-black"> Enroll Now </b-button>
 </b-col>
 <b-col cols="6" >
     <div class="rightevolvego">
-     <img src="~assets/evolve3/ai.svg">
+<div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
      <ul class="listleft">
-         <li><b-icon icon="calendar3" variant="info"></b-icon>   Sunday, 1st August 2021 </li>
-          <li><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
-           <li><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
-            <li><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
+        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Sunday, 1st August 2021 </li>
+        <li class="listitemgo"><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
+        <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
+        <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
      </ul>
   </div>
 </b-col>
@@ -109,13 +118,36 @@ export default {
     padding-left: 50px;
 }
 .rightevolvego{
+    padding-top: 51px;
     text-align: center;
-    font-size:20px;
+    font-family: Now;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.gotopimage{
+    height: 110%;
+    padding-right: 40%;
 }
 .listleft{
-    text-align: left;
-    margin:10px;
-    line-height: 4rem;
+
+font-family: NowThin;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+padding: 20px;
+}
+.listitemgo{
+    padding:20px;
 }
 .leftevolvebox{
     text-align: left;
@@ -127,13 +159,14 @@ export default {
 .evolve{
     background:#242728;
     height: fit-content;
+    padding: 25px;
 }
 .evolve-box{
 color:#FFFFFF;
 border: 1.5px solid;
 border-color: #21E3CE;
-padding: 20px 80px;
-margin: 100px;
+padding: 40px 70px;
+margin: 60px;
 display: flex;
 }
 .rightseatcircle{
@@ -159,5 +192,15 @@ display: inline-flex;
 background: #242728;
 box-shadow: inset -4.8254px -4.8254px 4.8254px rgba(68, 68, 68, 0.25), inset 4.8254px 4.8254px 4.8254px rgba(2, 2, 2, 0.15);
 border-radius: 48.254px;
+}
+.gohead{
+    font-family: Lovelo;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 37px;
+/* identical to box height, or 103% */
+text-transform: uppercase;
+color: #FFFFFF;
 }
 </style>
