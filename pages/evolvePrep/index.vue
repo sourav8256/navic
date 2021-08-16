@@ -52,10 +52,10 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
     <b-col align-self="start"></b-col>
     <b-col cols="8" align-self="center">
       <div class="blackbar"><p class="navic-color aquatext" style="margin-bottom: 0rem !important"> DAY 1:</p>&nbsp;&nbsp; <p style="margin-bottom: 0rem !important">Introduction + The job market in India + Finding your focus</p></div>
-      <div class="blackbar"><p class="navic-color aquatext"> DAY 2: </p>&nbsp;&nbsp; <p>The Resume</p></div>
-      <div class="blackbar"><p class="navic-color aquatext"> DAY 3: </p>&nbsp;&nbsp; <p>The Interview</p></div>
-      <div class="blackbar"><p class="navic-color aquatext"> DAY 4: </p> &nbsp;&nbsp;<p>The Assignment</p></div>
-      <div class="blackbar"><p class="navic-color aquatext"> DAY 5: </p> &nbsp;&nbsp;<p>Audits, grades and Q&A</p></div>
+      <div class="blackbar"><p class="navic-color aquatext" style="margin-bottom: 0rem !important"> DAY 2: </p>&nbsp;&nbsp; <p>The Resume</p></div>
+      <div class="blackbar"><p class="navic-color aquatext" style="margin-bottom: 0rem !important"> DAY 3: </p>&nbsp;&nbsp; <p>The Interview</p></div>
+      <div class="blackbar"><p class="navic-color aquatext" style="margin-bottom: 0rem !important"> DAY 4: </p> &nbsp;&nbsp;<p>The Assignment</p></div>
+      <div class="blackbar"><p class="navic-color aquatext" style="margin-bottom: 0rem !important"> DAY 5: </p> &nbsp;&nbsp;<p>Audits, grades and Q&A</p></div>
       </b-col>
     <b-col align-self="end"></b-col>
   </b-row>

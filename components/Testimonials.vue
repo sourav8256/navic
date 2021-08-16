@@ -126,7 +126,7 @@ export default {
     width: 100%;
     height: 100%;
     background-color: hidden;
-    background: #adb5bd;
+    background: #242728;
     color: #fff;
     border-radius: 10px;
     cursor: pointer;

@@ -117,3 +117,76 @@ background: linear-gradient(180deg, #00C2FF 0%, #3DFFA2 100%);
     letter-spacing: 0em;
     text-align: left;    
 }
+.seatsleft{
+    font-family: NowThin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.4762px;
+  line-height: 14px;
+  text-align: center;
+  }
+  .seatbutton{
+  background: #242728;
+  box-shadow: inset -4.8254px -4.8254px 4.8254px rgba(68, 68, 68, 0.25), inset 4.8254px 4.8254px 4.8254px rgba(2, 2, 2, 0.15);
+  border-radius: 48.254px;
+  margin: 22px 45px;
+  padding: 11px 26px 11px 13px;
+  display: inline-flex;
+  }
+  .evolveboxhead{
+    font-family: Lovelo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;    
+  }
+  .centerevolvebox{
+    font-family: NowThin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+  }
+  .faq{
+    background: #242728;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top:10px;
+    text-align: right;
+}
+.darkbody {
+    background: #242728;
+    box-shadow: inset -4px -4px 4px rgba(65, 65, 65, 0.25), inset 4px 4px 4px rgba(2, 2, 2, 0.25);
+    border-radius: 10px;
+    }
+    .text-left{
+        color: #fff;
+    background: #242728;
+    box-shadow: inset -4px -4px 4px rgba(68, 68, 68, 0.25), inset 4px 4px 4px rgba(2, 2, 2, 0.15);
+    border-radius: 10px;
+    border-color: #242728;
+    }
+    .moduleimg img{
+        height:55px;
+    }
+    .modulesbody{
+        padding:10px;
+        margin:10px;
+        font-family: NowThin;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+
+align-items: center;
+text-transform: capitalize;
+    }
+    .modulesleft{
+        background: #242728;
+        padding-right: 10px;
+        padding-left: 0px;
+        padding-top:0px;
+        text-align: right;
+    }
