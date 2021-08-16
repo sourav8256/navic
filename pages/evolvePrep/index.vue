@@ -42,7 +42,7 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
     </b-row>
     <div class="py-5">
       <h2 class="navic-color">₹4990</h2>
-      <b-button class="btn-black"> ENROLL NOW </b-button>
+<a href="/login"><b-button class="btn-black"> ENROLL NOW </b-button></a>
     </div>
   </div>
 </b-col>
@@ -77,7 +77,7 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
     </b-row>
     <div class="py-5">
       <h2 class="navic-color">₹4990</h2>
-      <b-button class="btn-black"> ENROLL NOW </b-button>
+<a href="/login"><b-button class="btn-black"> ENROLL NOW </b-button></a>
     </div>
     </div>
     </b-col>

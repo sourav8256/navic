@@ -14,7 +14,7 @@
                     <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Segregated QA sessions </li>
                     <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Session </li>
                 </ul>
-<b-button class="btn-black coursebtn">KNOW MORE</b-button>
+<a href="/evolvego"><b-button class="btn-black coursebtn">KNOW MORE</b-button></a>
         </b-col>
         <b-col class="box-bg">
             <div> </div>
@@ -31,7 +31,7 @@
                     <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> 10 Assignments & 3 Projects </li>
                     <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Individual feedback </li>
                 </ul>
-<b-button class="btn-black coursebtn">KNOW MORE</b-button>
+<a href="/evolve"><b-button class="btn-black coursebtn">KNOW MORE</b-button></a>
         </b-col>
         <b-col class="box-bg">
             <div> </div>
@@ -48,7 +48,7 @@
                     <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Individual student feedback </li>
                     <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Individual feedback </li>
                 </ul>
-<b-button class="btn-black coursebtn">KNOW MORE</b-button>
+<a href="/evolveprep"><b-button class="btn-black coursebtn">KNOW MORE</b-button></a>
         </b-col>
                 <b-col class="box-bg">
                     <div> </div>
@@ -65,7 +65,7 @@
                     <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Live Projects </li>
                     <li class="liitem"><b-icon icon="check-circle" variant="info"></b-icon> Individual employee feedback</li>
                 </ul>
-<b-button class="btn-black coursebtn">CUSTOMIZE NOW</b-button>
+<a href="/evolvepro"><b-button class="btn-black coursebtn">CUSTOMIZE NOW</b-button></a>
         </b-col>
 </b-row>
 </section>

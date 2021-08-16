@@ -42,7 +42,7 @@ Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1
     </b-row>
     <div class="py-5">
       <h2 class="navic-color">₹14990</h2>
-      <b-button class="btn-black"> ENROLL NOW </b-button>
+      <a href="/login"><b-button class="btn-black"> ENROLL NOW </b-button></a>
     </div>
   </div>
 </b-col>
@@ -320,7 +320,7 @@ currency<br>
     </b-row>
     <div class="py-5">
       <h2 class="navic-color">₹14990</h2>
-      <b-button class="btn-black"> ENROLL NOW </b-button>
+<a href="/login"><b-button class="btn-black"> ENROLL NOW </b-button></a>
     </div>
     </div>
     </b-col>
