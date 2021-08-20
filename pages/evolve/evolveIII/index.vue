@@ -45,7 +45,7 @@ Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1
     </b-row>
     <div class="py-5">
       <h2 class="navic-color pb-4">₹34990</h2>
-<a href="/login"><b-button class="btn-black"> ENROLL NOW </b-button></a>
+<a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a>
     </div>
   </div>
 </b-col>
@@ -346,7 +346,7 @@ regional content<br>
     </b-row>
     <div class="py-5">
       <h2 class="navic-color pb-4">₹34990</h2>
-<a href="/login"><b-button class="btn-black"> ENROLL NOW </b-button></a>
+<a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a>
     </div>
     </div>
     </b-col>

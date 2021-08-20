@@ -18,7 +18,7 @@ Find Answers to questions like
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹990</h1>
-        <b-button href="/login" class="btn-black"> Enroll Now </b-button>
+        <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
 </b-col>
 <b-col cols="6" >
     <div class="rightevolvego">
@@ -51,7 +51,7 @@ Find Answers to questions like
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹990</h1>
-        <b-button href="/login" class="btn-black"> Enroll Now </b-button>
+        <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
 </b-col>
 <b-col cols="6" >
     <div class="rightevolvego">
@@ -83,7 +83,7 @@ Find Answers to questions like
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹990</h1>
-        <b-button href="/login" class="btn-black"> Enroll Now </b-button>
+        <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
 </b-col>
 <b-col cols="6" >
     <div class="rightevolvego">

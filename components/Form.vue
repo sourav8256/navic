@@ -70,7 +70,7 @@
 <b-row>
   <b-col>
   </b-col>
-    <b-col>
+    <b-col class="py-2">
        <b-button type="submit" class="btn-black">Submit</b-button>
   </b-col>
     <b-col>

@@ -30,9 +30,7 @@ export default {
 </script>
 
 <style>
-.body{
 
-}
 .courseenrolled{
     font-family: Brandon Grotesque;
 font-size: 24px;

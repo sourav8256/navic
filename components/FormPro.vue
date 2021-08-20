@@ -44,7 +44,7 @@
 <b-row>
     <b-col cols="" align-self="start"></b-col>
     <b-col cols="" align-self="center" class="px-2 pb-4">
-      <a href="\evolvePro\customize"><b-button class="btn-black" type="submit"> Customize NOW </b-button></a>
+      <a href="\evolvePro\customize"><b-button class="btn-black" type="submit"> Submit </b-button></a>
     </b-col>
     <b-col cols="" align-self="end"></b-col>
   </b-row>

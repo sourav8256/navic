@@ -162,6 +162,7 @@ font-weight: 390;
 line-height: 55px;
 letter-spacing: 0em;
 text-align: center;
+color:white;
 }
 .proformmain{
     background: #242728;
