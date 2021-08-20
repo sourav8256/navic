@@ -52,10 +52,8 @@ import '@firebase/auth'
 export default {
   data () {
     return {
-      name: '',
       email: '',
       password: '',
-      course: '',
       error: ''
     }
   },
