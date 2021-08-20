@@ -52,8 +52,10 @@ import '@firebase/auth'
 export default {
   data () {
     return {
+      name: '',
       email: '',
       password: '',
+      course: '',
       error: ''
     }
   },
@@ -61,10 +63,10 @@ export default {
     pressed () {
       firebase
         .auth()
-        .createUserWithEmailAndPassword(this.email, this.password, this.name, this.course)
+        .createUserWithEmailAndPassword(this.email, this.password)
         .then(data => {
           console.log(data)
-          this.$router.replace({ name: '/thanks' })
+          this.$router.push({ name: 'thanks' })
         })
         .catch(error => {
           this.error = error
