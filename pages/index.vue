@@ -1,6 +1,6 @@
 <template>
   <section class="main">
-    <b-container>
+    <b-container fluid>
       <h1 class="text-head align-bottom">
         EVOLVE
       </h1>
@@ -12,7 +12,7 @@
       <h4 class="text-bottom align-bottom animate__bounce">
        THE FUTURE OF MARKETING
       </h4>
-      <b-button class="bottom-btn">KNOW MORE</b-button>
+      <a href="/evolve/evolve1"><b-button class="bottom-btn">KNOW MORE</b-button></a>
       </b-container>
   </section>
 </template>
@@ -38,7 +38,7 @@ export default {
 }
 .text-head{
     font-family: lovelo;
-    padding-top:0px;
+    padding-top:4rem;
     font-size: 92px;
     color: ivory;
 box-sizing: border-box;
@@ -56,7 +56,8 @@ text-align: center;
 color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-padding-bottom: 5rem;
+padding-bottom: 72px;
+padding-top: 0.5rem;
 }
 .logoconstruction{
     align-content: center;

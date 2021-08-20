@@ -1,6 +1,6 @@
 <template>
     <b-container fluid class="level1 bg">
-    <h1 class="section-header white py-4" >  EVOLVEPro</h1>
+    <h1 class="section-header white" style="padding:2rem 0 1rem" >  EVOLVEPro</h1>
 <b-row class="">
 <b-col cols="8">
   <b-row>
@@ -20,7 +20,7 @@
   </b-row>
   <b-row class="courseboxleft">
     <h3 class="middlehead">ABOUT</h3>
-    <p class=preptext>This one is for the Pros<br>
+    <p class=preptext pb-4>This one is for the Pros<br>
  We understand the value knowledge and market intelligence brings to employees across PR, Digital Marketing, Brand consulting and Advertising functions. At NAVICLearn, we create custom programs within and beyond the EVOLVE eco-system for professionals.
  </p>
 <a href="\evolvePro\customize"><b-button class="btn-black"> Customize NOW </b-button></a>
@@ -823,7 +823,7 @@ regional content<br>
 <div class="coursebottom">
   <b-row>
     <b-col cols="4" align-self="start"></b-col>
-    <b-col cols="4" align-self="center" class="px-2">
+    <b-col cols="4" align-self="center" class="px-2 pb-4">
       <a href="\evolvePro\customize"><b-button class="btn-black"> Customize NOW </b-button></a>
     </b-col>
     <b-col align-self="end"></b-col>

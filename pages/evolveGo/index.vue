@@ -115,7 +115,9 @@ export default {
 
 <style>
 .priceevolvebox{
-    padding-left: 50px;
+    padding-left: 60px;
+    font-family: Now;
+    padding-bottom: 0.5rem;
 }
 .rightevolvego{
     padding-top: 51px;
@@ -136,7 +138,6 @@ color: #FFFFFF;
     padding-right: 40%;
 }
 .listleft{
-
 font-family: NowThin;
 font-size: 18px;
 font-style: normal;
@@ -165,7 +166,7 @@ padding: 20px;
 color:#FFFFFF;
 border: 1.5px solid;
 border-color: #21E3CE;
-padding: 40px 70px;
+padding: 1.5rem;
 margin: 60px;
 display: flex;
 }

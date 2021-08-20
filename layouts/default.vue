@@ -70,8 +70,11 @@ a {
 }
 
 a:hover {
-  color: rgba(218, 42, 100, 0.596);
-  text-decoration: none;
+  background: linear-gradient(180deg, #00C2FF 0%, #3DFFA2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #21E3CE;
+  text-decoration:wavy;
 }
 body{
 background: #242728;

@@ -19,7 +19,6 @@
         id="input-group-1"
         label="Email address"
         label-for="input-1"
-        description="We'll never share your email with anyone else."
       >
         <b-form-input
           id="input-1"
@@ -68,7 +67,15 @@
         </b-form-checkbox-group>
       </b-form-group>
 --->
-      <b-button type="submit" class="btn-black">Submit</b-button>
+<b-row>
+  <b-col>
+  </b-col>
+    <b-col>
+       <b-button type="submit" class="btn-black">Submit</b-button>
+  </b-col>
+    <b-col>
+  </b-col>
+</b-row>
      <!--  <b-button type="reset" variant="danger">Reset</b-button> -->
     </b-form>
       </div>

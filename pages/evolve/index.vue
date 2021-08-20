@@ -1,6 +1,6 @@
 <template>
   <section class="evolve py-4">
-    <h1 class="section-head white">EVOLVE</h1>
+    <h1 class="section-head white" style="padding:2rem 0 0rem;">EVOLVE</h1>
     <div class="evolve-box">
         <b-row>
 <b-col cols="5" class="leftevolvebox">
@@ -8,7 +8,7 @@
     <p class="contenttextpg"> Start </p>
     <p class="contenttextpg">Start Begin your journey with Level 1 of the EVOLVE program to prepare and train yourself for the future of marketing. With a curated selection of 10 starter subjects, Level 1 aims to develop your curiosity and find up your marketing game whilst you learn and adapt to the ever-changing environment.</p>
     <h1 class="priceevolvebox navic-color py-2">₹14990</h1>
-        <b-button href="/evolve/evolvei" class="btn-black mr-2"> Enroll Now </b-button>
+        <b-button href="/registration" class="btn-black mr-2"> Enroll Now </b-button>
         <b-button href="/evolve/evolvei" class="btn-black ml-2"> View Course</b-button>
 </b-col>
 <b-col cols="3" class="centerevolvebox">
@@ -33,7 +33,6 @@
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
     <div class="py-5">
-      <h2 class="navic-color">₹4990</h2>
     </div>
   </div>
 </b-col>
@@ -47,7 +46,7 @@
     <p class="contenttextpg"> Grow </p>
     <p class="contenttextpg">Get deeper into the EVOLVE curriculum with Level 2. With a curated selection of 10 intermediate subjects, this course allows you to expand your knowledge base into becoming a Jack of All Trades of marketing.</p>
     <h1 class="priceevolvebox navic-color py-2">₹24990</h1>
-        <b-button href="/evolve/evolveii" class="btn-black mr-2"> Enroll Now </b-button>
+        <b-button href="/registration" class="btn-black mr-2"> Enroll Now </b-button>
         <b-button href="/evolve/evolveii" class="btn-black ml-2"> View Course</b-button>
 </b-col>
 <b-col cols="3" class="centerevolvebox">
@@ -72,7 +71,6 @@
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
     <div class="py-5">
-      <h2 class="navic-color">₹24990</h2>
     </div>
   </div>
 </b-col>
@@ -86,7 +84,7 @@
     <p class="contenttextpg">Dominate</p>
     <p class="contenttextpg">Expand your horizons and become the leader in your peer group with level 3. With a curated selection of 10 pro subjects, this course allows you to perfect your role and career specialization. Own it.</p>
     <h1 class="priceevolvebox navic-color py-2">₹34990</h1>
-        <b-button href="/evolve/evolveii" class="btn-black mr-2"> Enroll Now </b-button>
+        <b-button href="/registration" class="btn-black mr-2"> Enroll Now </b-button>
         <b-button href="/evolve/evolveiii" class="btn-black ml-2"> View Course</b-button>
 </b-col>
 <b-col cols="3" class="centerevolvebox">
@@ -111,7 +109,6 @@
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
     <div class="py-5">
-      <h2 class="navic-color">₹34990</h2>
     </div>
   </div>
 </b-col>
@@ -145,8 +142,8 @@ export default {
 color:#FFFFFF;
 border: 1.5px solid;
 border-color: #21E3CE;
-padding: 20px 50px;
-margin: 50px;
+padding: 2rem;
+margin: 3rem;
 display: flexbox;
 }
 .rightseatcircle{
@@ -171,6 +168,7 @@ display: inline-flex;
 
 .coursebar{
   text-align: center;
+  padding-top:3rem;
 }
 .seatsleft{
   font-family: NowThin;

@@ -1,6 +1,6 @@
 <template>
     <b-container fluid class="level1 bg">
-    <h1 class="section-header white py-4" >  EVOLVE &nbsp;- &nbsp; Level III</h1>
+    <h1 class="section-header white" style="padding:2rem 0 1rem" >  EVOLVE &nbsp;- &nbsp; Level III</h1>
 <b-row class="">
 <b-col cols="8">
   <b-row>
@@ -44,8 +44,8 @@ Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
     <div class="py-5">
-      <h2 class="navic-color">₹34990</h2>
-      <b-button class="btn-black"> ENROLL NOW </b-button>
+      <h2 class="navic-color pb-4">₹34990</h2>
+<a href="/login"><b-button class="btn-black"> ENROLL NOW </b-button></a>
     </div>
   </div>
 </b-col>
@@ -345,8 +345,8 @@ regional content<br>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
     <div class="py-5">
-      <h2 class="navic-color">₹34990</h2>
-      <b-button class="btn-black"> ENROLL NOW </b-button>
+      <h2 class="navic-color pb-4">₹34990</h2>
+<a href="/login"><b-button class="btn-black"> ENROLL NOW </b-button></a>
     </div>
     </div>
     </b-col>

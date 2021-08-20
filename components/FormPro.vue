@@ -1,7 +1,7 @@
 <template>
   <b-container fluid >
       <h3 class="formhead ">Connect with our curriculum guide</h3>
-      <div class="proformain m-1">
+      <div class="proformmain m-1">
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group
         id="input-group-1"
@@ -41,10 +41,13 @@
           required
         ></b-form-input>
       </b-form-group>
-<div class="centre">
-      <b-button type="submit" variant="dark">Submit</b-button>
-      <b-button type="reset" variant="danger">Reset</b-button>
-</div>
+<b-row>
+    <b-col cols="" align-self="start"></b-col>
+    <b-col cols="" align-self="center" class="px-2 pb-4">
+      <a href="\evolvePro\customize"><b-button class="btn-black" type="submit"> Customize NOW </b-button></a>
+    </b-col>
+    <b-col cols="" align-self="end"></b-col>
+  </b-row>
     </b-form>
       </div>
   </b-container>

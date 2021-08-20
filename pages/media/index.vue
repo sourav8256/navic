@@ -1,6 +1,6 @@
 <template>
-<section class="media-body py-2">
-    <h1 class="section-head white py-2"> MEDIA & PRESS</h1>
+<section class="media-body pb-5">
+    <h1 class="section-head white pt-5"> MEDIA & PRESS</h1>
     <b-row class="mediabox">
         <b-col cols="3" class="mediaimg"><img src="~/assets/media1.png"> </b-col>
         <b-col cols="9" class="my-20"><h4>Virtual Influencer - Real Influence</h4>

@@ -99,6 +99,15 @@ ul {
     margin:15px;
     padding:20px;
 }
+.boxbg{
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #21E3CE;
+    align-content:center;
+    text-align: center;
+    margin:5rem;
+    padding:5rem;
+}
 .b-icon {
 padding:0rem 1.2rem 0 0;
 background: linear-gradient(180deg, #00C2FF 0%, #3DFFA2 100%);
@@ -190,3 +199,6 @@ text-transform: capitalize;
         padding-top:0px;
         text-align: right;
     }
+a{
+    color:#21E3CE;
+}
