@@ -2,7 +2,7 @@
 <b-container fluid class="py-5">
     <h1 class="section-header white">SIGN UP</h1>
     <div class="login">
-    <div class="subtitle white"><p>Already Part of Navic?  &nbsp;</p><a href="/login"><p class="navic-color">LOG IN</p></a> </div>
+    <div class="subtitle white"><p>Already Part of NAVIC?  &nbsp;</p><a href="/login"><p class="navic-color">LOG IN</p></a> </div>
       </div>
       <Signup />
 </b-container>

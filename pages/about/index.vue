@@ -1,27 +1,27 @@
 <template>
   <section class="about-main py-4">
-      <h1 class="section-head"> ABOUT NAVIC </h1>
+      <h1 class="section-head"> ABOUT <b>NAVIC</b> </h1>
       <h3 class="about-head" style="text-align:center;">“Some of the brightest minds in our country can be found on the last benches of the classroom.” </h3> <h3 class="about-head" style="text-align:center; padding-bottom:1.5rem;"> Dr. APJ Abdul Kalam</h3>
       <b-row>
-      <p class="text-about px-3">Curiosity is a powerful thing. In the dynamic field of marketing, it could become your biggest strength. At NAVIC, we help you stay curious.<br>
+      <p class="text-about px-3">Curiosity is a powerful thing. In the dynamic field of marketing, it could become your biggest strength. At <b>NAVIC</b>, we help you stay curious.<br>
 
-With a curated selection of subjects, NAVIC has created a format of applied training that balances theory and application. In today’s world of uncertainty, we don’t just tell you what to think, we inspire you to think effectively.<br>
+With a curated selection of subjects, <b>NAVIC</b> has created a format of applied training that balances theory and application. In today’s world of uncertainty, we don’t just tell you what to think, we inspire you to think effectively.<br>
 
-Our first set of courses EVOLVE, aim to help you navigate the open seas of the digital landscape and provide a robust, effective and understanding of the Future of Marketing.<br>
+Our first set of courses <b>EVOLVE</b>, aim to help you navigate the open seas of the digital landscape and provide a robust, effective and understanding of the Future of Marketing.<br>
 
-With a growing research team from PhD students to startup founders and marketing professionals, NAVIC aims to be the prime choice for marketing students who want to take the next step in their professional growth story.<br>
+With a growing research team from PhD students to startup founders and marketing professionals, <b>NAVIC</b> aims to be the prime choice for marketing students who want to take the next step in their professional growth story.<br>
 
 Let’s make a difference.<br>
 Let’s learn something new.
       </p>
       </b-row>
       <b-row>
-          <h1 class="middle-head">WHAT IS EVOLVE ?</h1>
+          <h1 class="middle-head">WHAT IS <b>EVOLVE</b> ?</h1>
       </b-row>
       <b-row>
-          <b-col> <h3 class="about-head alignleft">Part 1 - Here and Now Evolve </h3>
+          <b-col> <h3 class="about-head alignleft">Part 1 - Here and Now <b>EVOLVE</b> </h3>
           <p class="py-1">
-Evolve is an idea that brings current affairs and the future of communications in a melting pot of
+<b>EVOLVE</b> is an idea that brings current affairs and the future of communications in a melting pot of
 discussions with students.
 Every session, we start off with a discussion about the rawest developments in tech and communications.
 <br>Our goal is to fine tune it to 3 levels:
@@ -31,7 +31,7 @@ Every session, we start off with a discussion about the rawest developments in t
           <b-col><img class="img-about" style="padding-left:340px;" src="~/assets/about-polygon.svg"></b-col>
           </b-row>
       <b-row> <b-col><h3 class="about-head alignleft">Part 2 - Elements</h3><p class="py-1">
-The EVOLVE Elements curriculum is the core of the
+The <b>EVOLVE</b> Elements curriculum is the core of the
 course. A beginners guide to students for subjects
 curated specifically to educate about the future of
 tech, marketing and communications.

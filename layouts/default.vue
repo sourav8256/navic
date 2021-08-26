@@ -72,7 +72,6 @@ a {
 a:hover {
   background: linear-gradient(180deg, #00C2FF 0%, #3DFFA2 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   color: #21E3CE;
   text-decoration:wavy;
 }

@@ -12,7 +12,7 @@
       <h4 class="text-bottom align-bottom animate__bounce">
        THE FUTURE OF MARKETING
       </h4>
-      <a href="/evolve/evolve1"><b-button class="bottom-btn">KNOW MORE</b-button></a>
+      <a href="/evolve/evolvei"><b-button class="bottom-btn">KNOW MORE</b-button></a>
       </b-container>
   </section>
 </template>
@@ -30,7 +30,7 @@ export default {
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
 .main{
     background: #242728;
-    height:100vh;
+    height:100%;
     width:100%;
     text-align: center;
     position : relative;
@@ -38,8 +38,9 @@ export default {
 }
 .text-head{
     font-family: lovelo;
-    padding-top:4rem;
-    font-size: 92px;
+    padding-top:2rem;
+font-weight: 900;
+font-size: 90px;
     color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -56,7 +57,7 @@ text-align: center;
 color: ivory;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-padding-bottom: 72px;
+padding-bottom: 55px;
 padding-top: 0.5rem;
 }
 .logoconstruction{
@@ -79,16 +80,19 @@ padding: 0.5em 0em 1em ;
 }
 .polygon-construction{
 padding: 5px;
+margin:4rem;
 }
 .rectangle-construction{
 padding: 5px;
 animation-name:vanish;
 animation-duration: 5s;
 display: initial;
+margin:5rem;
 }
 .ellipse-construction{
 padding: 5px;
 height:20px;
+
 }
 @keyframes vanish{
     from {display: initial;}
@@ -107,5 +111,6 @@ border-radius: 25px;
   text-transform: uppercase;
   color: #FFFFFF;
   border-color: rgba(0, 0, 0, 0);
+  margin-bottom: 80px;
 }
 </style>

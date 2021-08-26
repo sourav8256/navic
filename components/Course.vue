@@ -4,7 +4,7 @@
 <b-row>
         <b-col class="box-bg">
             <div> </div>
-<h2 class="course-title"> EVOLVEGo </h2>
+<p class="course-title"> <b>EVOLVE</b>Go </p>
             <h3 class="price navic-color"><div style="font-size:12px">from &nbsp;</div>₹990</h3>
 <div>
             <img src="~/assets/courseline.svg">
@@ -81,7 +81,7 @@
     text-align: center;
 }
 .course-title{
-    font-family: Brandon Grotesque;
+font-family: Lovelo;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;

@@ -40,6 +40,7 @@ box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.2);
     align-content: center;
     text-align: center;
     width: auto;
+    height: auto;
     margin: 0px 30px;
     padding: 0px;
 }

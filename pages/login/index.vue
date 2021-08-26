@@ -2,7 +2,7 @@
   <div class="login py-5">
     <h1 class="section-header white">HI AGAIN</h1>
     <b-row>
-    <div class="subtitle white"><p>New to Navic?&nbsp;</p><a href="/registration"><p class="navic-color">SIGN UP</p></a></div>
+    <div class="subtitle white"><p>New to NAVIC?&nbsp;</p><a href="/registration"><p class="navic-color">SIGN UP</p></a></div>
     </b-row>
     <form @submit.prevent="pressed">
       <div class="login proformmain">

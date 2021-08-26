@@ -17,7 +17,7 @@
               1. Students in graduation fields of Digital marketing, BMS/BMS, Management, Arts, Commerce, Communications, Advertising and Media<br>
               2. MBAs and Post graduates in Marketing streams<br>
               3. Professionals in Digital marketing, PR, Advertising, Media Planning & buying and Journalists
-              <br> If you do well in EVOLVE, you’ll have more practical knowledge than half your peers and seniors in your current or future organisation.</p></b-card-text>
+              <br> If you do well in <b>EVOLVE</b>, you’ll have more practical knowledge than half your peers and seniors in your current or future organisation.</p></b-card-text>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -34,11 +34,11 @@
       </b-card-header>
       <b-collapse id="accordion-2" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>
-          <b-card-text><p class="white insidetext">For the flagship EVOLVE program (all levels) and the EVOLVEPro program targeted at professionals, we have a strict policy of 10 students only. Its a rule we’ll NEVER break. Helps us interact better, solve more problems and provide a clear path for each student in their professional journey.
+          <b-card-text><p class="white insidetext">For the flagship <b>EVOLVE</b> program (all levels) and the <b>EVOLVE</b>Pro program targeted at professionals, we have a strict policy of 10 students only. Its a rule we’ll NEVER break. Helps us interact better, solve more problems and provide a clear path for each student in their professional journey.
 <br>
-For EVOLVEPrep, we run limited batches of 5 students.
+For <b>EVOLVE</b>Prep, we run limited batches of 5 students.
 <br>
-For EVOLVEGo, our weekly one-time sessions, there is no limit on attendance.
+For <b>EVOLVE</b>Go, our weekly one-time sessions, there is no limit on attendance.
 </p></b-card-text>
         </b-card-body>
       </b-collapse>
@@ -112,7 +112,7 @@ Everyone deserves a second chance.
       <b-collapse id="accordion-6" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>
           <b-card-text><p class="white insidetext">First, try not to. We put in a lot of effort in planning our sessions and our trainers are highly sought after professionals with limited time. But sometimes life gets in the way so we get it. We’ll try to get you upto speed in one of 3 ways:
-<br>- We run EVOLVEGo workshops all the time. We’ll try to fit you in there.
+<br>- We run <b>EVOLVE</b>Go workshops all the time. We’ll try to fit you in there.
 <br>- If we find a bunch of students with queries requesting for a repeat session, happy to oblige.
 <br>- For every batch, a monthly Q&A session is planned. Clear your Qs and doubts there.
 </p></b-card-text>
@@ -128,7 +128,7 @@ Everyone deserves a second chance.
     <b-col cols="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button class="text-left" block v-b-toggle.accordion-7 variant="dark">What if I have more questions or I may not be able to come up with any during EVOLVE?
+        <b-button class="text-left" block v-b-toggle.accordion-7 variant="dark">What if I have more questions or I may not be able to come up with any during <b>EVOLVE</b>?
 </b-button>
       </b-card-header>
       <b-collapse id="accordion-7" visible accordion="my-accordion" role="tabpanel">
@@ -151,14 +151,14 @@ Everyone deserves a second chance.
       </b-card-header>
       <b-collapse id="accordion-8" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>
-          <b-card-text><p class="white insidetext">Yep. For the flagship program, EVOLVE program has 10 assignments and 3 projects. Each assignment is based on the subject of the week. The projects are as follows:<br>
+          <b-card-text><p class="white insidetext">Yep. For the flagship program, <b>EVOLVE</b> program has 10 assignments and 3 projects. Each assignment is based on the subject of the week. The projects are as follows:<br>
 Week 3: Solo project<br>
 Week 6: +1 project (execution with 1 partner)<br>
 Week 9: Group project<br>
 <br>
-For EVOLVEPro, live projects and assignments are created based on the understanding with the agency or company.
+For <b>EVOLVE</b>Pro, live projects and assignments are created based on the understanding with the agency or company.
 <br>
-For EVOLVEPrep, 3 live projects are included.
+For <b>EVOLVE</b>Prep, 3 live projects are included.
 </p></b-card-text>
         </b-card-body>
       </b-collapse>
@@ -196,9 +196,9 @@ For EVOLVEPrep, 3 live projects are included.
         <b-card-body>
           <b-card-text><p class="white insidetext">Soon. From September 2021, 2 internship slots will be opened for each batch. Students can apply within 7 days after the course ends. The tenure of each internship will be for 2 months:<br>
 You will be a part of:<br>
-- All brainstorming and discussion stages @ NAVIC with the founder <br>
+- All brainstorming and discussion stages @ <b>NAVIC</b> with the founder <br>
 - Connect, manage and develop social media and digital strategy for the brand <br>
-- Research, activate and support the NAVIC community across digital platforms<br>
+- Research, activate and support the <b>NAVIC</b> community across digital platforms<br>
 
 We’re also working with some partners to create an eco-system of internships across the marketing spectrum for our student community.
 </p></b-card-text>

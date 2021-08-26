@@ -1,17 +1,17 @@
 <template>
-<section class="about-body">
+<b-container fluid class="about-body">
     <h1 class="section-headabout black">WHAT IS EVOLVE</h1>
     <p class="sub-text"> EVOLVE is a set of courses, aim to help you navigate the open seas of the digital landscape and provide a robust, effective and understanding of</p>
     <h2 class="sub-column"> The Future of Marketing</h2>
     <a href="/about"> <b-button variant="light" class="white-btn">KNOW MORE</b-button> </a>
-</section>
+</b-container>
 </template>
 <style>
 .section{
     color:white;
 }
 .about-body{
-    height: 600px;
+    height: 100%;
     width: 100%;
     text-align: center;
     align-items: center;
@@ -19,6 +19,7 @@
     padding:6rem;
     background: white;
 }
+
 .section-headabout{
 font-family: Lovelo;
 font-style: normal;

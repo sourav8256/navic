@@ -5,24 +5,24 @@
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="https://www.facebook.com/Naviclearn098">
-                  <b-icon icon="facebook" aria-hidden="true"></b-icon>
+                  <b-icon icon="facebook" variant="light" aria-hidden="true"></b-icon>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://www.instagram.com/naviclearn/">
-                  <b-icon icon="instagram" aria-hidden="true"></b-icon>
+                  <b-icon icon="instagram" variant="light" aria-hidden="true"></b-icon>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/navic-learn-2aa5a3218">
-                  <b-icon icon="linkedin" aria-hidden="true"></b-icon>
+                  <b-icon icon="linkedin" variant="light" aria-hidden="true"></b-icon>
                 </a>
               </li>
             </ul>
           </div>
         <b-row align-self="center">
             <b-col> </b-col>
-             <b-col align-self="center"><img src="~/assets/logo.svg" height="100px;"> </b-col>
+             <b-col align-self="center"><img src="~/assets/2.png" height="100px;"> </b-col>
               <b-col> </b-col>
               </b-row>
               <b-row align-self="center">
@@ -47,14 +47,14 @@ export default {
 
 <style>
 .final{
-    background: #ffffff;
+    background: #242728;
     text-align: center;
     height: 100%;
     width: auto;
-    color: #0c0c0c;
+    color: #ffffff;
 }
 .finalhead{
-font-family: Brandon Grotesque;
+font-family: Evolve;
 font-style: normal;
 font-weight: bold;
 font-size: 42px;
@@ -64,7 +64,7 @@ display: contents;
 align-items: center;
 text-align: center;
 text-transform: uppercase;
-color: #0c0c0c;
+color: #ffffff;
 }
 .finalpara{
 font-family: NowThin;

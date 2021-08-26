@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Lovelo";
     src: local("Lovelo"),
-     url(~/assets/fonts/LoveloBlack.ttf) format("truetype");
+     url(~/assets/fonts/brandonBlack.otf) format("truetype");
 }
 @font-face {
     font-family: "Now";

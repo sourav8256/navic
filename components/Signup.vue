@@ -2,18 +2,26 @@
 <b-container fluid>
     <form @submit.prevent="pressed">
           <div class="login proformmain">
-              <b-form-group id="name" label="Full Name*" label-for="name">
+              <b-form-group id="fname" label="Full Name*" label-for="name">
         <b-form-input
           id="name"
-          v-model="name"
+          v-model="user.fname"
           placeholder="Your Full Name"
+          required
+        ></b-form-input>
+      </b-form-group>
+                    <b-form-group id="phoneno" label="Phone no.*" label-for="phoneno">
+        <b-form-input
+          id="phoneno"
+          v-model="user.phoneno"
+          placeholder="9876543210"
           required
         ></b-form-input>
       </b-form-group>
         <b-form-group id="email" label="Email Address*" label-for="email">
         <b-form-input
           id="email"
-          v-model="email"
+          v-model="user.email"
           placeholder="Your Email Address"
           required
         ></b-form-input>
@@ -22,7 +30,7 @@
         <b-form-input
          type="password"
           id="password"
-          v-model="password"
+          v-model="user.password"
           placeholder="***********"
           required
         ></b-form-input>
@@ -30,14 +38,14 @@
     <b-form-group label="Course Interested in:" v-slot="{ ariaDescribedby }">
       <b-form-radio-group
         id="radio-group-1"
-        v-model="course"
+        v-model="user.course"
         :aria-describedby="ariaDescribedby"
         name="radio-sub-component"
       >
-        <b-form-radio value="first">Evolve I, II & III</b-form-radio>
-        <b-form-radio value="second">Evolve Prep</b-form-radio>
-        <b-form-radio value="third">Evolve Go</b-form-radio>
-        <b-form-radio value="fourth">Evolve Pro</b-form-radio>
+        <b-form-radio value="evolve">Evolve I, II & III</b-form-radio>
+        <b-form-radio value="evolveprep">Evolve Prep</b-form-radio>
+        <b-form-radio value="evolvego">Evolve Go</b-form-radio>
+        <b-form-radio value="evolvepro">Evolve Pro</b-form-radio>
       </b-form-radio-group>
     </b-form-group>
       </div>
@@ -47,24 +55,36 @@
     </b-container>
 </template>
 <script>
+import { db } from '../plugins/firebase'
 import firebase from 'firebase/app'
 import '@firebase/auth'
 export default {
   data () {
     return {
-      name: '',
-      email: '',
-      password: '',
-      course: '',
-      error: ''
+      user: {
+        fname: '',
+        email: '',
+        password: '',
+        course: '',
+        phoneno: '',
+        error: ''
+      }
     }
   },
   methods: {
     pressed () {
+      db.collection('user').add(this.user).then(() => {
+        this.user.fname = ''
+        this.user.email = ''
+        this.user.password = ''
+        this.user.phoneno = ''
+        this.user.course = ''
+      })
       firebase
         .auth()
-        .createUserWithEmailAndPassword(this.email, this.password)
+        .createUserWithEmailAndPassword(this.user.email, this.user.password)
         .then(data => {
+          alert('User successfully created!')
           console.log(data)
           this.$router.push({ name: 'thanks' })
         })

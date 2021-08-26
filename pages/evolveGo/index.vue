@@ -1,17 +1,15 @@
 <template>
   <section class="evolve">
-    <h1 class="section-head white">UPCOMING EVOLVEGo WORKSHOPS</h1>
+    <h1 class="section-head white">UPCOMING <b>EVOLVE</b>Go WORKSHOPS</h1>
     <div class="evolve-box">
         <b-row>
 <b-col cols="6" class="leftevolvego">
-    <h1 class="gohead py-2"> AI IN COMMUNICATION</h1>
+    <h1 class="gohead py-2">“Yeh crypto-crypto kya hai” – Level 1</h1>
     <p class="contexttextpg">
-         Starting off!<br>
-Get a taste of the EVOLVE program with our EVOLVEGo workshops. Interactive, focused
-And curated for marketers.<br>
-Find Answers to questions like
+         Start from scratch<br>
+we’ll explain the basics of the disruption of the decade – cryptocurrencies.<br> With essentials on blockchain and other decentralised ledgers, crypto-projects and India’s role in the market, you’ll learn in an evening a distillation of over 6 months of research.
 </p>
-<p class="contexttextpg">
+<p class="contexttextpg" style="display: none;">
     <b-row>
         <b-col cols="4" class="py-2" > Types of AI ?<br> What is AI ?<br> What is ML?</b-col>
         <b-col cols="4" class="py-2" > What can AI do ?<br> Who uses AI ?<br> Most used AI ? </b-col>
@@ -24,10 +22,11 @@ Find Answers to questions like
     <div class="rightevolvego">
 <div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
      <ul class="listleft">
-        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Sunday, 1st August 2021 </li>
+        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Tuesday, 21st September 2021 </li>
         <li class="listitemgo"><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
         <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
         <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
+        <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Limited 30 Seats</li>
      </ul>
   </div>
 </b-col>
@@ -37,30 +36,29 @@ Find Answers to questions like
     <div class="evolve-box">
         <b-row>
 <b-col cols="6" class="leftevolvego">
-    <h1 class="gohead py-2"> AI IN COMMUNICATION</h1>
+    <h1 class="gohead py-2">“Yeh crypto-crypto kya hai” – Level 2</h1>
     <p class="contexttextpg">
-         Starting off!<br>
-Get a taste of the EVOLVE program with our EVOLVEGo workshops. Interactive, focused
-And curated for marketers.<br>
-Find Answers to questions like
+        Pretty cool that you did Part 1<br>
+In part 2, we refresh the earlier program in 10 minutes and dive into the practicals of DeFi (Decentralised finance), making your first NFT, making your first crypto asset purchase and learning more concepts within the DeFi ecosystem like staking, pools and yield farming.
 </p>
-<p class="contexttextpg">
+<p class="contexttextpg" style="display: none;">
     <b-row>
         <b-col cols="4" class="py-2" > Types of AI ?<br> What is AI ?<br> What is ML?</b-col>
         <b-col cols="4" class="py-2" > What can AI do ?<br> Who uses AI ?<br> Most used AI ? </b-col>
     </b-row>
 </p>
-<h1 class="priceevolvebox navic-color">₹990</h1>
+<h1 class="priceevolvebox navic-color">₹1990</h1>
         <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
 </b-col>
 <b-col cols="6" >
     <div class="rightevolvego">
         <div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
      <ul class="listleft">
-        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Sunday, 1st August 2021 </li>
+        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Tuesday, 21st September 2021 </li>
         <li class="listitemgo"><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
         <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
         <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
+         <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Limited 20 Seats</li>
      </ul>
   </div>
 </b-col>
@@ -69,30 +67,29 @@ Find Answers to questions like
         <div class="evolve-box">
         <b-row>
 <b-col cols="6" class="leftevolvego">
-    <h1 class="gohead py-2"> AI IN COMMUNICATION</h1>
+    <h1 class="gohead py-2">“Digital campaign design in 100 minutes”</h1>
     <p class="contexttextpg">
-         Starting off!<br>
-Get a taste of the EVOLVE program with our EVOLVEGo workshops. Interactive, focused
-And curated for marketers.<br>
-Find Answers to questions like
+         Campaign time<br>
+In this crash-course, learn simple and practical methods to design a digital campaign for any brand, entity or organisation. With award winning case studies and contextual data for reference, we’ll try to change the way you think about planning and campaign strategy.
 </p>
-<p class="contexttextpg">
+<p class="contexttextpg" style="display: none;">
     <b-row>
         <b-col cols="4" class="py-2" > Types of AI ?<br> What is AI ?<br> What is ML?</b-col>
         <b-col cols="4" class="py-2" > What can AI do ?<br> Who uses AI ?<br> Most used AI ? </b-col>
     </b-row>
 </p>
-<h1 class="priceevolvebox navic-color">₹990</h1>
+<h1 class="priceevolvebox navic-color">₹1990</h1>
         <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
 </b-col>
 <b-col cols="6" >
     <div class="rightevolvego">
 <div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
      <ul class="listleft">
-        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Sunday, 1st August 2021 </li>
+        <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Tuesday, 21st October 2021 </li>
         <li class="listitemgo"><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
         <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Live Online Session</li>
         <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Segregated Q&A session</li>
+         <li class="listitemgo"><b-icon icon="check-circle" variant="info"></b-icon>  Limited 20 Seats</li>
      </ul>
   </div>
 </b-col>
@@ -120,7 +117,7 @@ export default {
     padding-bottom: 0.5rem;
 }
 .rightevolvego{
-    padding-top: 51px;
+    padding-top: 5px;
     text-align: center;
     font-family: Now;
 font-style: normal;
@@ -148,7 +145,7 @@ text-align: left;
 padding: 20px;
 }
 .listitemgo{
-    padding:20px;
+    padding:16px;
 }
 .leftevolvebox{
     text-align: left;

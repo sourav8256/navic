@@ -1,25 +1,78 @@
 <template>
 <b-container fluid>
-    <h1 class="section-head white py-4">My COURSES</h1>
+    <h1 class="section-header white pt-">MY COURSES</h1>
     <div class="box-bg">
         <b-row>
             <b-col cols="6">
-                <p class="coursedate"> Enrolled On : 2nd September 2021</p>
+                <p class="coursedate"> Started On : 22nd September 2021</p>
                 <h3 class="courseenrolled"> EVOLVE - Level I {{coursename}}</h3></b-col>
             <b-col>
                 <b-row>
                     <b-col>
-                        <h3 class="linkhead navic-color">Lecture 1</h3>
-            "<p class="courselink"> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><b-button class="white-btn"> Lecture 1 Link</b-button></a><p class="coursedate"> Date: 4th September 2021 </p>
+                        <h3 class="linkhead navic-color">Batch 1 Classroom</h3>
+            "<p class="courselink"> <a href="https://classroom.google.com/u/0/c/MzUyMDg0MjU4NjEz"><b-button class="white-btn"> Batch Uno</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
                     </b-col>
                     <b-col>
-            <h3 class="linkhead navic-color">Lecture 2</h3>
-            "<p class="courselink"> <a href="#"><b-button disabled class="white-btn"> Lecture 2 Link</b-button></a><p class="coursedate"> Date: 6th September 2021 </p>
+            <h3 class="linkhead navic-color">Batch 2 Classroom</h3>
+            "<p class="courselink"> <a href="#"><b-button disabled class="white-btn">Batch Dos</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
+            </b-col>
+            </b-row>
+            </b-col>
+        </b-row>
+                <b-row>
+            <b-col cols="6">
+                <p class="coursedate"> Started On : 22nd September 2021</p>
+                <h3 class="courseenrolled"> EVOLVE - Level II {{coursename}}</h3></b-col>
+            <b-col>
+                <b-row>
+                    <b-col>
+                        <h3 class="linkhead navic-color">Batch 1 Classroom</h3>
+            "<p class="courselink"> <a href="https://classroom.google.com/u/0/c/MzUyMDg0MjU4NjEz"><b-button class="white-btn"> Batch Uno</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
+                    </b-col>
+                    <b-col>
+            <h3 class="linkhead navic-color">Batch 2 Classroom</h3>
+            "<p class="courselink"> <a href="#"><b-button disabled class="white-btn">Batch Dos</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
+            </b-col>
+            </b-row>
+            </b-col>
+        </b-row>
+                <b-row>
+            <b-col cols="6">
+                <p class="coursedate"> Started On : 22nd September 2021</p>
+                <h3 class="courseenrolled"> EVOLVE - Level III {{coursename}}</h3></b-col>
+            <b-col>
+                <b-row>
+                    <b-col>
+                        <h3 class="linkhead navic-color">Batch 1 Classroom</h3>
+            "<p class="courselink"> <a href="https://classroom.google.com/u/0/c/MzUyMDg0MjU4NjEz"><b-button class="white-btn"> Batch Uno</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
+                    </b-col>
+                    <b-col>
+            <h3 class="linkhead navic-color">Batch 2 Classroom</h3>
+            "<p class="courselink"> <a href="#"><b-button disabled class="white-btn">Batch Dos</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
             </b-col>
             </b-row>
             </b-col>
         </b-row>
     </div>
+        <div class="box-bg">
+        <b-row>
+            <b-col cols="6">
+                <p class="coursedate"> Started On : 02nd September 2021</p>
+                <h3 class="courseenrolled"> <b>EVOLVE</b> Go - Blockchain Unchained {{coursename}}</h3></b-col>
+            <b-col>
+                <b-row>
+                    <b-col>
+                        <h3 class="linkhead navic-color">Batch 1 Classroom</h3>
+            "<p class="courselink"> <a href="https://classroom.google.com/u/0/c/MzUyMDg0MjU4NjEz"><b-button class="white-btn"> Batch Uno</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
+                    </b-col>
+                    <b-col>
+            <h3 class="linkhead navic-color">Batch 2 Classroom</h3>
+            "<p class="courselink"> <a href="#"><b-button disabled class="white-btn">Batch Dos</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
+            </b-col>
+            </b-row>
+            </b-col>
+        </b-row>
+        </div>
 </b-container>
 </template>
 
@@ -50,7 +103,7 @@ line-height: 22px;
 /* identical to box height, or 122% */
 
 text-transform: capitalize;
-
+text-align:left;
 color: #FFFFFF;
 }
 .box-bg{

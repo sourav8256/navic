@@ -33,16 +33,16 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="/evolveGo">EVOLVEGo</a>
+                  <i class="bi bi-chevron-right"></i> <a href="/evolveGo"><b>EVOLVE</b>Go</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="/evolve">EVOLVE</a>
+                  <i class="bi bi-chevron-right"></i> <a href="/evolve"><b>EVOLVE</b></a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="/evolvePro">EVOLVEPro</a>
+                  <i class="bi bi-chevron-right"></i> <a href="/evolvePro"><b>EVOLVE</b>Pro</a>
                 </li>
                   <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="/evolvePrep">EVOLVEPrep</a>
+                  <i class="bi bi-chevron-right"></i> <a href="/evolvePrep"><b>EVOLVE</b>Prep</a>
                 </li>
               </ul>
             </div>
@@ -59,7 +59,7 @@
                   <span class="color-text-a">Phone:</span> +91 9819948499
                 </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email:</span> hi@navic.com
+                  <span class="color-text-a">Email:</span> hi@naviclearn.com
                 </li>
               </ul>
             </div>

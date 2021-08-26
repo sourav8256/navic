@@ -114,11 +114,14 @@ export default {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transition: all 0.8s ease
+    -webkit-transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
 }
 
 .thecard:hover {
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .thefront {
@@ -145,6 +148,7 @@ export default {
     color: #fff;
     border-radius: 10px;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
     border: 1px solid #eee;
     box-shadow: -7.55474px -7.55474px 10px rgba(56, 56, 56, 0.3), 7.55474px 7.55474px 10px rgba(2, 2, 2, 0.2);
     padding: 10px
