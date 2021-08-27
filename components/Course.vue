@@ -81,7 +81,7 @@
     text-align: center;
 }
 .course-title{
-font-family: Lovelo;
+font-family: Brandon Grotesque;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;

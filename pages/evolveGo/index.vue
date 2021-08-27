@@ -192,7 +192,7 @@ box-shadow: inset -4.8254px -4.8254px 4.8254px rgba(68, 68, 68, 0.25), inset 4.8
 border-radius: 48.254px;
 }
 .gohead{
-    font-family: Lovelo;
+    font-family: Brandon Grotesque;
 font-style: normal;
 font-weight: 900;
 font-size: 36px;

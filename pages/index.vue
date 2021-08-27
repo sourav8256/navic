@@ -37,7 +37,7 @@ export default {
     padding-top: 3rem;
 }
 .text-head{
-    font-family: lovelo;
+    font-family: Brandon Grotesque;
     padding-top:2rem;
 font-weight: 900;
 font-size: 90px;

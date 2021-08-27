@@ -21,7 +21,7 @@
 }
 
 .section-headabout{
-font-family: Lovelo;
+font-family: Brandon Grotesque;
 font-style: normal;
 font-weight: 900;
 font-size: 46px;

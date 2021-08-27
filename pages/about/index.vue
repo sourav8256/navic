@@ -99,7 +99,7 @@ text-align: center;
 font-size: 42px;
 font-style: normal;
 font-weight: 900;
-font-family: Lovelo;
+font-family: Brandon Grotesque;
 line-height: 55px;
 letter-spacing: 0em;
 text-align: center;

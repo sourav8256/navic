@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "Lovelo";
-    src: local("Lovelo"),
-     url(~/assets/fonts/brandonBlack.otf) format("truetype");
-}
-@font-face {
     font-family: "Now";
     src: local("Now-Regular"),
      url(~/assets/fonts/Now-Bold.otf) format("truetype");
@@ -14,17 +9,17 @@
      url(~/assets/fonts/Now-Thin.otf) format("truetype");
 }
 @font-face {
-    font-family: "Bradon Grotesque";
-    src: local("Bradon Grotesque"),
-     url(~/assets/fonts/brandon.otf) format("truetype");
+    font-family: "Brandon Grotesque";
+    src: local("Brandon Grotesque"),
+     url(~/assets/fonts/brandonBlack.otf) format("truetype");
 }
 
 html {
-    font-family: "Lovelo";
+    font-family: "Brandon Grotesque";
 }
 .section-head{
     text-align: center;
-    font-family: Lovelo;
+    font-family: Brandon Grotesque;
     font-size: 48px;
     line-height: 55.43px;
     padding:1rem;
@@ -32,7 +27,7 @@ html {
 }
 .section-header{
     text-align: center;
-    font-family: Lovelo;
+    font-family: Brandon Grotesque;
     font-size: 48px;
     line-height: 55.43px;
     font-weight: 900;
@@ -143,7 +138,7 @@ background: linear-gradient(180deg, #00C2FF 0%, #3DFFA2 100%);
   display: inline-flex;
   }
   .evolveboxhead{
-    font-family: Lovelo;
+    font-family: Brandon Grotesque;
     font-size: 36px;
     font-style: normal;
     font-weight: 900;

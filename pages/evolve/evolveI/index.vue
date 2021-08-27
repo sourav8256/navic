@@ -450,7 +450,7 @@ font-size: 24px;
 line-height: 26px;
 }
 .centrehead{
-font-family: Lovelo;
+font-family: Brandon Grotesque;
 font-style: normal;
 font-weight: 900;
 font-size: 24px;
