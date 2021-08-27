@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: "Brandon Grotesque";
-    src: local("Brandon Grotesque"),
+    src: local("BrandonBlack"),
      url(~/assets/fonts/brandonBlack.otf) format("truetype");
 }
 html {
