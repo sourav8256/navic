@@ -851,6 +851,7 @@ font-weight: normal;
 font-size: 14.4762px;
 line-height: 14px;
 text-align: center;
+font-weight: 600;
 }
 .level1{
   display: flexbox;
@@ -873,7 +874,7 @@ align-items: center;
 .preptext{
   font-family: NowThin;
 font-style: normal;
-font-weight: normal;
+font-weight: 600;
 font-size: 16px;
 line-height: 26px;
 /* or 162% */

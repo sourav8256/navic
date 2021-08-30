@@ -113,4 +113,13 @@ border-radius: 25px;
   border-color: rgba(0, 0, 0, 0);
   margin-bottom: 80px;
 }
+@media only screen and (min-width: 1440px)
+{
+  .main{
+    height: 100vh !important;
+  }
+.text-head{
+  padding-top:7rem !important;
+}
+}
 </style>

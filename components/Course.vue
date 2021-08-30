@@ -95,7 +95,7 @@ color: #FFFFFF;
 .price{
 font-family: Now;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 font-size: 24px;
 line-height: 55px;
 /* identical to box height, or 462% */
@@ -137,7 +137,7 @@ display: inline-flex;
 .liitem{
     font-family: NowThin;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 font-size: 16px;
 line-height: 30px;
 text-align:left;

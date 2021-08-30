@@ -81,7 +81,7 @@ export default {
     font-family: NowThin;
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 line-height: 27px;
 letter-spacing: 0em;
 text-align: left;

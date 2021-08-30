@@ -114,7 +114,7 @@ export default {
 .priceevolvebox{
     padding-left: 60px;
     font-family: Now;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 .rightevolvego{
     padding-top: 5px;
@@ -138,7 +138,7 @@ color: #FFFFFF;
 font-family: NowThin;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 line-height: 22px;
 letter-spacing: 0em;
 text-align: left;

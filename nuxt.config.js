@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ]
   },
 
@@ -46,6 +46,9 @@ export default {
   },
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    icon: {
+      source: '/static/favicon.png'
+    },
     manifest: {
       lang: 'en'
     }
@@ -55,5 +58,5 @@ export default {
   build: {
   },
   // Loading Screen
-  loading: '~/components/Loading.vue'
+  loading: true
 }
