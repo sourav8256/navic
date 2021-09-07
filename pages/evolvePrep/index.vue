@@ -2,15 +2,15 @@
     <b-container fluid class="level1 bg">
     <h1 class="section-header white" style="padding:2rem 0 1rem" > EVOLVEPrep </h1>
 <b-row class="">
-<b-col cols="8">
+<b-col lg="8" sm="12">
   <b-row>
-    <b-col cols="5">
+    <b-col lg="5">
       <ul class="listleftprep">
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Batch limit -5 students </li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> 5 day program</li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> 2 Live projects</li>
       </ul> </b-col>
-      <b-col cols="6">
+      <b-col lg="6">
         <ul class="listleftprep">
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Sessions</li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Segregated Q&A sessions</li>
@@ -27,7 +27,7 @@ Just graduated? Changing industries to enter marketing? This one is for you. Weâ
 Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st August 2020 <b-icon icon="clock-history" variant="info"></b-icon>  6:30 to 7:30 PM, IST. </p>
   </b-row>
 </b-col>
-<b-col cols="4" class="coursebar">
+<b-col lg="4" class="coursebar">
   <div class="seatsleft">
     <h2 class="navic-color"> 5/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -35,7 +35,7 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
     <br>
     <h4> STARTS IN </h4>
             <b-row>
-      <b-col cols="1" class="seatbutton">01 </b-col><b-col cols="1" class="seatbutton"> 12</b-col><b-col cols="1" class="seatbutton">20</b-col>
+      <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
@@ -50,7 +50,7 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
   <h2 class="center centerhead py-5">CURRICULUM STRUCTURE</h2>
   <b-row align-self="center">
     <b-col align-self="start"></b-col>
-    <b-col cols="8" align-self="center">
+    <b-col lg="8" align-self="center">
       <div class="blackbar"><p class="navic-color aquatext" style="margin-bottom: 0rem !important"> DAY 1:</p>&nbsp;&nbsp; <p style="margin-bottom: 0rem !important">Introduction + The job market in India + Finding your focus</p></div>
       <div class="blackbar"><p class="navic-color aquatext" style="margin-bottom: 0rem !important"> DAY 2: </p>&nbsp;&nbsp; <p style="margin-bottom: 0rem !important">The Resume</p></div>
       <div class="blackbar"><p class="navic-color aquatext" style="margin-bottom: 0rem !important"> DAY 3: </p>&nbsp;&nbsp; <p style="margin-bottom: 0rem !important">The Interview</p></div>
@@ -61,8 +61,8 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
   </b-row>
 <div class="coursebottom">
   <b-row>
-    <b-col cols="4" align-self="start"></b-col>
-    <b-col cols="4" align-self="center" class="px-2">
+    <b-col lg="4" align-self="start"></b-col>
+    <b-col lg="4" align-self="center" class="px-2">
       <div class="seatsleft">
     <h2 class="navic-color"> 5/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -70,7 +70,7 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
     <br>
     <h4> STARTS IN </h4>
             <b-row>
-      <b-col cols="1" class="seatbutton">01 </b-col><b-col cols="1" class="seatbutton"> 12</b-col><b-col cols="1" class="seatbutton">20</b-col>
+      <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>

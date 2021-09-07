@@ -19,7 +19,7 @@
 <li>&#9679;&nbsp;1-to-1 feedback</li>
     </ul>
 </b-col>
-<b-col lg="4" class="coursebar">
+<b-col lg="4" class="coursebarevolve">
   <div class="seatsleft">
     <h2 class="navic-color"> 5/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -57,7 +57,7 @@
 <li>&#9679;&nbsp;1-to-1 feedback</li>
     </ul>
 </b-col>
-<b-col lg="4" class="coursebar">
+<b-col lg="4" class="coursebarevolve">
   <div class="seatsleft">
     <h2 class="navic-color"> 3/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="30" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -95,7 +95,7 @@
 <li>&#9679;&nbsp;1-to-1 feedback</li>
     </ul>
 </b-col>
-<b-col lg="4" class="coursebar">
+<b-col lg="4" class="coursebarevolve">
   <div class="seatsleft">
     <h2 class="navic-color"> 2/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="20" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -169,7 +169,7 @@ display: inline-flex;
     display: flex;
 }
 
-.coursebar{
+.coursebarevolve{
   text-align: center;
   padding-top:3rem;
 }

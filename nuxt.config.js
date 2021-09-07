@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -59,5 +59,9 @@ export default {
   build: {
   },
   // Loading Screen
-  loading: true
+  loading: {
+    color: 'white',
+    height: '5px',
+    duration: 5000
+  }
 }

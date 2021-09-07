@@ -48,7 +48,7 @@
       </b-form-group>
       <b-form-group id="input-group-4" label="Select Subjects (5 or more)" label-for="input-3" v-slot="{ ariaDescribedby }">
         <b-row>
-        <b-col cols="4">
+        <b-col lg="4">
         <b-form-checkbox-group
           v-model="form.checked"
           id="checkboxes-4"
@@ -67,7 +67,7 @@
             <b-form-checkbox value="me">Social Commerce</b-form-checkbox>
         </b-form-checkbox-group>
         </b-col>
-        <b-col cols="4">
+        <b-col lg="4">
         <b-form-checkbox-group
           v-model="form.checked"
           id="checkboxes-4"
@@ -86,7 +86,7 @@
           <b-form-checkbox value="that">Affiliate & Influencer marketing</b-form-checkbox>
         </b-form-checkbox-group>
         </b-col>
-<b-col cols="4">
+<b-col lg="4">
         <b-form-checkbox-group
           v-model="form.checked"
           id="checkboxes-4"

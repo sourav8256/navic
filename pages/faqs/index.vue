@@ -1,12 +1,12 @@
 <template>
-<section class="faq py-4">
+<b-container class="faq py-4">
     <h1 class="section-header white py-2">FREQUENTLY ASKED QUESTIONS</h1>
   <div class="accordion accordian-body" role="tablist">
   <b-row class="faqbody">
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-1 variant="dark">Who is the course for? </b-button>
@@ -24,10 +24,10 @@
     </b-col>
   </b-row>
  <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-2 variant="dark">How many students per batch? </b-button>
@@ -46,10 +46,10 @@ For <b>EVOLVE</b>Go, our weekly one-time sessions, there is no limit on attendan
     </b-col>
   </b-row>
    <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-3 variant="dark">Do you only have LIVE online lectures? </b-button>
@@ -63,10 +63,10 @@ For <b>EVOLVE</b>Go, our weekly one-time sessions, there is no limit on attendan
     </b-col>
   </b-row>
    <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-4 variant="dark">How do you grade students?</b-button>
@@ -81,10 +81,10 @@ For <b>EVOLVE</b>Go, our weekly one-time sessions, there is no limit on attendan
     </b-col>
   </b-row>
    <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-5 variant="dark">What is the passing grade for the course?
@@ -101,10 +101,10 @@ Everyone deserves a second chance.
     </b-col>
   </b-row>
    <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-6 variant="dark">What do I do if I miss a session due to an emergency?</b-button>
@@ -122,10 +122,10 @@ Everyone deserves a second chance.
     </b-col>
   </b-row>
    <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-7 variant="dark">What if I have more questions or I may not be able to come up with any during <b>EVOLVE</b>?
@@ -140,10 +140,10 @@ Everyone deserves a second chance.
     </b-col>
   </b-row>
    <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-8 variant="dark">Will there be projects?
@@ -166,10 +166,10 @@ For <b>EVOLVE</b>Prep, 3 live projects are included.
     </b-col>
   </b-row>
    <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-9 variant="dark">Are you affiliated with any universities?</b-button>
@@ -183,10 +183,10 @@ For <b>EVOLVE</b>Prep, 3 live projects are included.
     </b-col>
   </b-row>
    <b-row class=faqbody>
-    <b-col cols="1" class="faq">
+    <b-col lg="1" class="faq">
   <b-icon icon="question-circle" class="faqicon" scale="2"></b-icon>
     </b-col>
-    <b-col cols="11" class="py=0">
+    <b-col lg="11" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-10 variant="dark">Do you offer internships?
@@ -209,7 +209,7 @@ We’re also working with some partners to create an eco-system of internships a
   </b-row>
   </div>
   <Form />
-</section>
+</b-container>
 
 </template>
 

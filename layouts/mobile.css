@@ -2,6 +2,9 @@
     .hidemobile{
         display: none !important;
     }
+    .section-header{
+font-size: 42px !important;
+    }
     /* Navbar */
 .logoconstruction{
     height: auto;
@@ -39,7 +42,7 @@
         padding: 2rem !important;
     }
     .middle-head{
-        padding: 0rem 4rem;
+        padding: 0rem 4rem !important;
     }
     .img-about{
         display: none !important;
@@ -74,8 +77,12 @@ padding: 2rem 0rem 0rem !important;
         text-align: center !important;
     } 
     .seatbutton{
-        margin: 20px 38px !important;
+        margin: 20px 16px !important;
         width: 1rem;
+    }
+    .coursebottom{
+        padding: 2rem 4rem 0rem !important;
+        margin: 0rem 2rem !important;
     }
     /* Evolve1 */
     .level1{
@@ -85,11 +92,23 @@ padding: 2rem 0rem 0rem !important;
         padding: 2rem 4rem 0rem !important;
         margin: 0rem 2rem !important;
     }
+    .coursebarevolve{
+        padding: 0rem 0rem 0rem !important;
+        margin: 0rem 0rem !important;
+    }
     .modulesleft{
         text-align: center !important;
     }
-    .seatsleft{
-        padding: 2rem 4rem 0rem !important;
-        margin: 0rem 2rem !important;
+    /* thankyou*/
+    .boxbg{
+        margin: 0 !important;
+    }
+    /*Faq*/
+    .accordian-body{
+        margin: 0 0 0 0 !important;
+    }
+    .faq{
+        text-align: center !important;
+        padding: 0.5rem !important;
     }
 }

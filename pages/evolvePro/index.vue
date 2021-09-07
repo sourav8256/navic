@@ -2,15 +2,15 @@
     <b-container fluid class="level1 bg">
     <h1 class="section-header white" style="padding:2rem 0 1rem" >  EVOLVEPro</h1>
 <b-row class="">
-<b-col cols="8">
+<b-col lg="8">
   <b-row>
-    <b-col cols="5">
+    <b-col lg="5">
       <ul class="listleftprep">
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Customized Course</li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> 5 sessions or more</li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Live Projects</li>
       </ul> </b-col>
-      <b-col cols="6">
+      <b-col lg="6">
         <ul class="listleftprep">
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Sessions</li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Segregated Q&A sessions</li>
@@ -23,22 +23,22 @@
     <p class=preptext pb-4>This one is for the Pros<br>
  We understand the value knowledge and market intelligence brings to employees across PR, Digital Marketing, Brand consulting and Advertising functions. At NAVICLearn, we create custom programs within and beyond the EVOLVE eco-system for professionals.
  </p>
-<a href="\evolvePro\customize"><b-button class="btn-black"> Customize NOW </b-button></a>
+<a href="\evolvePro\customize"><b-button class="btn-black center"> Customize NOW </b-button></a>
   </b-row>
 </b-col>
-<b-col cols="4" class="formpro">
+<b-col lg="4" class="formpro">
     <FormPro />
 </b-col>
 </b-row>
   <h2 class="center centerhead py-5">Modules in This Course</h2>
   <b-row align-self="center">
-    <b-col cols="4" class="p-0">
+    <b-col lg="4" class="p-0">
   <div class="accordion accordian-body" role="tablist">
   <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/affliate.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-1 variant="dark">Affiliate and Influencer Marketing</b-button>
@@ -60,10 +60,10 @@ affiliates</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/bot.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-2 variant="dark">Chatbots</b-button>
@@ -86,10 +86,10 @@ world<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/digital.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-3 variant="dark">Sci-Fi realties</b-button>
@@ -112,10 +112,10 @@ represent?<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/government.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-4 variant="dark">Social Media and Government</b-button>
@@ -139,10 +139,10 @@ and tech<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/headset.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-5 variant="dark">Virtual Assistants</b-button>
@@ -165,10 +165,10 @@ chatbots?<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/immersive.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-6 variant="dark">VR & AR</b-button>
@@ -191,10 +191,10 @@ and VR<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/money.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-7 variant="dark">Money and Marketing</b-button>
@@ -217,10 +217,10 @@ changed?<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/open.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-8 variant="dark">The World of OpenSource</b-button>
@@ -243,10 +243,10 @@ material?<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/secure-data.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-9 variant="dark">Digital Safety Net</b-button>
@@ -267,10 +267,10 @@ protect a brand?<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve2/troll.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-10 variant="dark">Trolls and Bots</b-button>
@@ -296,13 +296,13 @@ of bots<br>
 
   </div>
     </b-col>
-    <b-col cols="4" align-self="center" class="p-0">
+    <b-col lg="4" align-self="center" class="p-0">
   <div class="accordion accordian-body" role="tablist">
   <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/know.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-1 variant="dark">Know Your Tech Giants </b-button>
@@ -323,10 +323,10 @@ of bots<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/digital.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-2 variant="dark">Digital Disruption </b-button>
@@ -350,10 +350,10 @@ disrupt?</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/E-commerce.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-3 variant="dark">E-commerce</b-button>
@@ -374,10 +374,10 @@ disrupt?</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/Frame7.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-4 variant="dark">Digital Detox</b-button>
@@ -395,10 +395,10 @@ session will be non-digital in nature.</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/Frame9.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-5 variant="dark">AI in Marketing </b-button>
@@ -418,10 +418,10 @@ session will be non-digital in nature.</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/job.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-6 variant="dark">Marketing Jobs of Tomorrow</b-button>
@@ -444,10 +444,10 @@ people</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/media.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-7 variant="dark">The Media Industry </b-button>
@@ -471,10 +471,10 @@ evolved?
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/monitor.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-8 variant="dark">Data Monitoring and Permissions</b-button>
@@ -496,10 +496,10 @@ worth?</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/smart-watch.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-9 variant="dark">Wearable Tech </b-button>
@@ -523,10 +523,10 @@ currency<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/socs.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-10 variant="dark">Social Commerce</b-button>
@@ -546,13 +546,13 @@ currency<br>
 
   </div>
     </b-col>
-<b-col cols="4" class="p-0">
+<b-col lg="4" class="p-0">
   <div class="accordion accordian-body" role="tablist">
   <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/ai.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-1 variant="dark">Ai In Marketing 2</b-button>
@@ -576,10 +576,10 @@ use AI<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/content.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-2 variant="dark">Content Marketing</b-button>
@@ -603,10 +603,10 @@ Old vs new<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/digibrand.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-3 variant="dark">Digital Brand Design</b-button>
@@ -631,10 +631,10 @@ brand design
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/digimarket.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-4 variant="dark">Digital Marketing - Tracking and Analysis</b-button>
@@ -658,10 +658,10 @@ marketing success<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/game.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-5 variant="dark">Gamification</b-button>
@@ -685,10 +685,10 @@ Communications<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/group.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-6 variant="dark">Digital Communities and Groups</b-button>
@@ -713,10 +713,10 @@ partnerships<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/growth.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-7 variant="dark">Growth Hacking</b-button>
@@ -739,10 +739,10 @@ growth hacking<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/meme.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-8 variant="dark">Meme Marketing</b-button>
@@ -765,10 +765,10 @@ meme marketing
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/meta.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-9 variant="dark">Metadata and keywords</b-button>
@@ -790,10 +790,10 @@ keywords<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve3/regional.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-10 variant="dark">Regional Communications</b-button>
@@ -822,8 +822,8 @@ regional content<br>
   </b-row>
 <div class="coursebottom">
   <b-row>
-    <b-col cols="4" align-self="start"></b-col>
-    <b-col cols="4" align-self="center" class="px-2 pb-4">
+    <b-col lg="4" align-self="start"></b-col>
+    <b-col lg="4" align-self="center" class="px-2 pb-4">
       <a href="\evolvePro\customize"><b-button class="btn-black"> Customize NOW </b-button></a>
     </b-col>
     <b-col align-self="end"></b-col>
