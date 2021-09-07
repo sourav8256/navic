@@ -98,7 +98,7 @@ export default {
     font-family: NowThin;
 font-style: normal;
 font-weight: normal;
-font-size: 12px;
+font-size: 16px;
 line-height: 20px;
 }
 .formbody{
