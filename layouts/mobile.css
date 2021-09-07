@@ -51,13 +51,16 @@ font-size: 42px !important;
     /*page-Media*/
     .mediaimg{
         text-align: center !important;
-        padding: 2rem !important;
+        padding: 1rem 0rem !important;
     
     }
      /*page-EvolveGO*/
      .gotopimage{
         height: auto !important; 
         padding-right: 0% !important;
+     }
+     .evolve-box{
+         margin: 0 0 0 0 !important;
      }
      .rightevolvego{
 padding: 2rem 0rem 0rem !important;
@@ -103,6 +106,10 @@ padding: 2rem 0rem 0rem !important;
     .boxbg{
         margin: 0 !important;
     }
+    .box-bg{
+        margin: 0 !important;
+        width: 100% !important;
+    }
     /*Faq*/
     .accordian-body{
         margin: 0 0 0 0 !important;
@@ -110,5 +117,9 @@ padding: 2rem 0rem 0rem !important;
     .faq{
         text-align: center !important;
         padding: 0.5rem !important;
+    }
+    /* evolvePro*/
+    .formpro{
+        padding:2rem 0 0 0;
     }
 }

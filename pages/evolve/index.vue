@@ -27,7 +27,7 @@
     <br>
     <h4> STARTS IN </h4>
             <b-row>
-      <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
+      <b-col lg="1" sm="4" class="seatbutton">01 </b-col><b-col lg="1" sm="4" class="seatbutton"> 12</b-col><b-col lg="1" sm="4" class="seatbutton">20</b-col>
     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
@@ -180,6 +180,15 @@ font-weight: normal;
 font-size: 14.4762px;
 line-height: 14px;
 text-align: center;
+}
+@media only screen and (max-width: 768px){
+  .evolveboxhead{
+    font-size: 32px;
+  }
+  .seatsleft{
+    padding: 2rem !important;
+    margin: 2rem!important;
+  }
 }
 .seatbutton{
 background: #242728;

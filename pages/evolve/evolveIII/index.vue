@@ -328,7 +328,7 @@ regional content<br>
     </b-col>
     <b-col align-self="end"></b-col>
   </b-row>
-<div class="coursebottom">
+<div class="coursebottom hidemobile">
   <b-row>
     <b-col lg="4" align-self="start"></b-col>
     <b-col lg="4" align-self="center" class="px-2">
