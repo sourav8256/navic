@@ -2,7 +2,10 @@
   <div class="login py-5">
     <h1 class="section-header white">HI AGAIN</h1>
     <b-row>
-    <div class="subtitle white"><p>New to NAVIC?&nbsp;</p><a href="/registration"><p class="navic-color">SIGN UP</p></a></div>
+      <b-col></b-col><b-col cols=12>
+        <div class="subtitle white">New to NAVIC?&nbsp;</div>
+      <div class="subtitle navic-color text-center"> <a href="/registration"> SIGN UP </a></div>
+      </b-col><b-col></b-col>
     </b-row>
     <form @submit.prevent="pressed">
       <div class="login proformmain">
@@ -74,7 +77,6 @@ font-weight: 500;
 line-height: 26px;
 letter-spacing: 0em;
 text-align: center;
-display:inline-flex;
 color:white;
 }
 div {
@@ -113,7 +115,7 @@ text-align: center;
     font-family: NowThin;
 font-style: normal;
 font-weight: normal;
-font-size: 12px;
+font-size: 18px;
 line-height: 20px;
 margin:20px 120px;
 }

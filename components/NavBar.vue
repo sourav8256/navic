@@ -1,7 +1,7 @@
 <template>
 <b-navbar type="dark" toggleable="lg" class="navbar">
     <b-navbar-brand href="/">
-      <img class="logoconstruction" src="~/assets/vector.svg" alt="NavicLogo">
+      <img class="logoconstruction" src="~/assets/vector.png" alt="NavicLogo">
     </b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
      <b-collapse id="nav-collapse" is-nav>
@@ -39,17 +39,12 @@ box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.2);
 .logoconstruction{
     align-content: center;
     text-align: center;
-    width: auto;
+    width: 9rem;
     height: auto;
     margin: 0px 30px;
     padding: 0px;
 }
 
-@media screen and (max-width: 600px)  {
-  .logoconstruction{
-    height: 80px;
-  }
-}
 .navbar-nav{
   margin-left: 50%;
   font-size: 15px;

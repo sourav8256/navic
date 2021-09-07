@@ -22,7 +22,7 @@
           </div>
         <b-row align-self="center">
             <b-col> </b-col>
-             <b-col align-self="center"><img src="~/assets/2.png" height="100px;"> </b-col>
+             <b-col align-self="center"><img src="~/assets/vector.png" height="100px;"> </b-col>
               <b-col> </b-col>
               </b-row>
               <b-row align-self="center">
@@ -57,7 +57,7 @@ export default {
 font-family: Evolve;
 font-style: normal;
 font-weight: bold;
-font-size: 42px;
+font-size: 36px;
 line-height: 50px;
 
 display: contents;

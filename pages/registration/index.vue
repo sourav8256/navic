@@ -2,7 +2,10 @@
 <b-container fluid class="py-5">
     <h1 class="section-header white">SIGN UP</h1>
     <div class="login">
-    <div class="subtitle white"><p>Already Part of NAVIC?  &nbsp;</p><a href="/login"><p class="navic-color">LOG IN</p></a> </div>
+     <b-col></b-col><b-col cols=12>
+        <div class="subtitle white">Already Part of NAVIC?&nbsp;</div>
+      <div class="subtitle navic-color text-center"> <a href="/login"> LOGIN </a></div>
+      </b-col><b-col></b-col>
       </div>
       <Signup />
 </b-container>
@@ -24,7 +27,6 @@ font-weight: 500;
 line-height: 26px;
 letter-spacing: 0em;
 text-align: center;
-display:inline-flex;
 color:white;
 }
 div {

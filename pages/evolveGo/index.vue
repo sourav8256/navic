@@ -112,7 +112,7 @@ export default {
 
 <style>
 .priceevolvebox{
-    padding-left: 60px;
+    padding-left: 0px;
     font-family: Now;
     padding-bottom: 1rem;
 }
