@@ -1,5 +1,5 @@
 <template>
-  <div class="login py-5">
+  <b-container fluid class="login py-5">
     <h1 class="section-header white">HI AGAIN</h1>
     <b-row>
       <b-col></b-col><b-col cols=12>
@@ -30,7 +30,7 @@
       <button class="btn-black">Login</button>
     </form>
     <div class="error" v-if="error">{{error.message}}</div>
-  </div>
+  </b-container>
 </template>
 
 <script>
@@ -93,6 +93,11 @@ input {
   padding: 30px;
   margin: 0px;
   font-size: 21px;
+}
+@media only screen and (max-width: 768px){
+  input{
+    width: auto;
+  }
 }
 .error {
   color: red;

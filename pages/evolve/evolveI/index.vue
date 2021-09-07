@@ -2,15 +2,15 @@
     <b-container fluid class="level1 bg">
     <h1 class="section-header white" style="padding:2rem 0 1rem" >  EVOLVE &nbsp;- &nbsp; Level I</h1>
 <b-row class="">
-<b-col cols="8">
+<b-col lg="8" sm="12">
   <b-row>
-    <b-col cols="5">
+    <b-col lg="5" >
       <ul class="listleftprep">
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Batch limit -10 students </li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> 10 Week Courses</li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> 5 practicals</li>
       </ul> </b-col>
-      <b-col cols="6">
+      <b-col lg="6">
         <ul class="listleftprep">
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Live Interactive Sessions</li>
       <li class="listitemgo"> <b-icon icon="check-circle" variant="info"></b-icon> Segregated Q&A sessions</li>
@@ -27,7 +27,7 @@ Begin your journey with Level 1 of the EVOLVE program to prepare and train yours
 Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st August 2020 <b-icon icon="clock-history" variant="info"></b-icon>  6:30 to 7:30 PM, IST. </p>
   </b-row>
 </b-col>
-<b-col cols="4" class="coursebar">
+<b-col lg="4" class="coursebar">
   <div class="seatsleft">
     <h2 class="navic-color"> 5/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -35,7 +35,7 @@ Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1
     <br>
     <h4> STARTS IN </h4>
             <b-row>
-      <b-col cols="1" class="seatbutton">01 </b-col><b-col cols="1" class="seatbutton"> 12</b-col><b-col cols="1" class="seatbutton">20</b-col>
+      <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
@@ -47,16 +47,16 @@ Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1
   </div>
 </b-col>
 </b-row>
-  <h2 class="center centerhead py-5">Modules in This Course</h2>
+  <h2 class="center centerhead py-2">Modules in This Course</h2>
   <b-row align-self="center">
     <b-col align-self="start"></b-col>
-    <b-col cols="6" align-self="center">
+    <b-col lg="6" align-self="center">
   <div class="accordion accordian-body" role="tablist">
   <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/know.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-1 variant="dark">Know Your Tech Giants </b-button>
@@ -77,10 +77,10 @@ Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/digital.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-2 variant="dark">Digital Disruption </b-button>
@@ -104,10 +104,10 @@ disrupt?</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/E-commerce.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-3 variant="dark">E-commerce</b-button>
@@ -128,10 +128,10 @@ disrupt?</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/Frame7.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-4 variant="dark">Digital Detox</b-button>
@@ -149,10 +149,10 @@ session will be non-digital in nature.</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/Frame9.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-5 variant="dark">AI in Marketing </b-button>
@@ -172,10 +172,10 @@ session will be non-digital in nature.</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/job.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-6 variant="dark">Marketing Jobs of Tomorrow</b-button>
@@ -198,10 +198,10 @@ people</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/media.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-7 variant="dark">The Media Industry </b-button>
@@ -225,10 +225,10 @@ evolved?
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/monitor.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-8 variant="dark">Data Monitoring and Permissions</b-button>
@@ -250,10 +250,10 @@ worth?</p></b-card-text>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/smart-watch.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-9 variant="dark">Wearable Tech </b-button>
@@ -277,10 +277,10 @@ currency<br>
     </b-col>
   </b-row>
     <b-row class="modulesbody">
-    <b-col cols="2" class="modulesleft">
+    <b-col lg="2" class="modulesleft">
   <img src="~/assets/evolve1/socs.svg" class="moduleimg" height="55px;">
     </b-col>
-    <b-col cols="10" class="py=0">
+    <b-col lg="10" class="py=0">
   <b-card no-body class="mb-1 darkbody">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button class="text-left" block v-b-toggle.accordion-10 variant="dark">Social Commerce</b-button>
@@ -304,8 +304,8 @@ currency<br>
   </b-row>
 <div class="coursebottom">
   <b-row>
-    <b-col cols="4" align-self="start"></b-col>
-    <b-col cols="4" align-self="center" class="px-2">
+    <b-col lg="4" align-self="start"></b-col>
+    <b-col lg="4" align-self="center" class="px-2">
       <div class="seatsleft">
     <h2 class="navic-color"> 5/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -313,7 +313,7 @@ currency<br>
     <br>
     <h4> STARTS IN </h4>
             <b-row>
-      <b-col cols="1" class="seatbutton">01 </b-col><b-col cols="1" class="seatbutton"> 12</b-col><b-col cols="1" class="seatbutton">20</b-col>
+      <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>

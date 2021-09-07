@@ -3,7 +3,7 @@
         <h1 class="section-head"> Meet our Students</h1>
         <div class="mt-5 px-5">
         <b-row>
-            <b-col cols="3">
+            <b-col lg="3" align-self="center">
                             <div class="maincard ">
                 <div class="thecard">
                     <div class="thefront text-center py-4"> <img src="~/assets/testimonials1.jpg" class="rounded-circle " width="220">
@@ -25,7 +25,7 @@ WERE EXCITING AS WELL!
                 </div>
             </div>
             </b-col>
-             <b-col cols="3">
+             <b-col lg="3" >
                             <div class="maincard ">
                 <div class="thecard">
                     <div class="thefront text-center py-4"> <img src="~/assets/testimonials7.jpg" class="rounded-circle " width="220">
@@ -46,7 +46,7 @@ ATTRACTIVE. "</p>
                 </div>
             </div>
             </b-col>
-            <b-col cols="3">
+            <b-col lg="3">
                             <div class="maincard ">
                 <div class="thecard">
                     <div class="thefront text-center py-4"> <img src="~/assets/testimonials2.jpg" class="rounded-circle " width="220">
@@ -67,7 +67,7 @@ TOO! "</p>
                 </div>
             </div>
             </b-col>
-            <b-col cols="3">
+            <b-col lg="3">
                             <div class="maincard ">
                 <div class="thecard">
                     <div class="thefront text-center py-4"> <img src="~/assets/testimonials10.jpg" class="rounded-circle " width="220">

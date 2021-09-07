@@ -35,7 +35,7 @@
           required
         ></b-form-input>
       </b-form-group>
-    <b-form-group label="Course Interested in:" v-slot="{ ariaDescribedby }">
+    <b-form-group class="formcourse" label="Course Interested in:" v-slot="{ ariaDescribedby }">
       <b-form-radio-group
         id="radio-group-1"
         v-model="user.course"
@@ -128,6 +128,16 @@ input {
   padding: 30px;
   margin: 0px;
   font-size: 21px;
+}
+@media only screen and (max-width: 768px){
+  input{
+    width: auto;
+  }
+}
+@media only screen and (max-width: 768px){
+  .formcourse{
+  padding: 0rem 0rem 0rem 4rem;
+  }
 }
 .error {
   color: red;

@@ -3,7 +3,7 @@
     <h1 class="section-head white">UPCOMING <b>EVOLVE</b>Go WORKSHOPS</h1>
     <div class="evolve-box">
         <b-row>
-<b-col cols="6" class="leftevolvego">
+<b-col lg="6" class="leftevolvego">
     <h1 class="gohead py-2">“Yeh crypto-crypto kya hai” – Level 1</h1>
     <p class="contexttextpg">
          Start from scratch<br>
@@ -18,9 +18,9 @@ we’ll explain the basics of the disruption of the decade – cryptocurrencies.
 <h1 class="priceevolvebox navic-color">₹990</h1>
         <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
 </b-col>
-<b-col cols="6" >
+<b-col lg="6" >
     <div class="rightevolvego">
-<div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
+<div class="gotopimage"><img src="~assets/evolve3/crypto.svg"> </div>
      <ul class="listleft">
         <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Tuesday, 21st September 2021 </li>
         <li class="listitemgo"><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
@@ -35,7 +35,7 @@ we’ll explain the basics of the disruption of the decade – cryptocurrencies.
     <!---- evolve 2-->
     <div class="evolve-box">
         <b-row>
-<b-col cols="6" class="leftevolvego">
+<b-col lg="6" class="leftevolvego">
     <h1 class="gohead py-2">“Yeh crypto-crypto kya hai” – Level 2</h1>
     <p class="contexttextpg">
         Pretty cool that you did Part 1<br>
@@ -50,9 +50,9 @@ In part 2, we refresh the earlier program in 10 minutes and dive into the practi
 <h1 class="priceevolvebox navic-color">₹1990</h1>
         <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
 </b-col>
-<b-col cols="6" >
+<b-col lg="6" >
     <div class="rightevolvego">
-        <div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
+        <div class="gotopimage"><img src="~assets/evolve3/crypto.svg"> </div>
      <ul class="listleft">
         <li class="listitemgo"><b-icon icon="calendar3" variant="info"></b-icon>  Tuesday, 21st September 2021 </li>
         <li class="listitemgo"><b-icon icon="clock-history" variant="info"></b-icon>  03:00 PM, IST</li>
@@ -66,7 +66,7 @@ In part 2, we refresh the earlier program in 10 minutes and dive into the practi
     </div>
         <div class="evolve-box">
         <b-row>
-<b-col cols="6" class="leftevolvego">
+<b-col lg="6" class="leftevolvego">
     <h1 class="gohead py-2">“Digital campaign design in 100 minutes”</h1>
     <p class="contexttextpg">
          Campaign time<br>
@@ -81,7 +81,7 @@ In this crash-course, learn simple and practical methods to design a digital cam
 <h1 class="priceevolvebox navic-color">₹1990</h1>
         <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
 </b-col>
-<b-col cols="6" >
+<b-col lg="6" >
     <div class="rightevolvego">
 <div class="gotopimage"><img src="~assets/evolve3/ai.svg"> </div>
      <ul class="listleft">

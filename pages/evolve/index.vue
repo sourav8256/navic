@@ -3,15 +3,15 @@
     <h1 class="section-head white" style="padding:2rem 0 0rem;">EVOLVE</h1>
     <div class="evolve-box">
         <b-row>
-<b-col cols="5" class="leftevolvebox">
+<b-col lg="5" class="leftevolvebox">
     <h1 class="evolveboxhead py-2"> EVOLVE &nbsp;- &nbsp; Level I</h1>
     <p class="contenttextpg"> Start </p>
     <p class="contenttextpg">Start Begin your journey with Level 1 of the EVOLVE program to prepare and train yourself for the future of marketing. With a curated selection of 10 starter subjects, Level 1 aims to develop your curiosity and find up your marketing game whilst you learn and adapt to the ever-changing environment.</p>
     <h1 class="priceevolvebox navic-color py-2">₹14990</h1>
-        <b-button href="/registration" class="btn-black mr-2"> Enroll Now </b-button>
-        <b-button href="/evolve/evolvei" class="btn-black ml-2"> View Course</b-button>
+        <b-button href="/registration" class="btn-black evolvegobtn"> Enroll Now </b-button>
+        <b-button href="/evolve/evolvei" class="btn-black evolvegobtn"> View Course</b-button>
 </b-col>
-<b-col cols="3" class="centerevolvebox">
+<b-col lg="3" class="centerevolvebox">
     <ul>
         <li> &#9679;&nbsp;10 Week course</li>
 <li>&#9679;&nbsp;10 Live sessions</li>
@@ -19,7 +19,7 @@
 <li>&#9679;&nbsp;1-to-1 feedback</li>
     </ul>
 </b-col>
-<b-col cols="4" class="coursebar">
+<b-col lg="4" class="coursebar">
   <div class="seatsleft">
     <h2 class="navic-color"> 5/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -27,12 +27,12 @@
     <br>
     <h4> STARTS IN </h4>
             <b-row>
-      <b-col cols="1" class="seatbutton">01 </b-col><b-col cols="1" class="seatbutton"> 12</b-col><b-col cols="1" class="seatbutton">20</b-col>
+      <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
-    <div class="py-5">
+    <div class="py-5 hidemobile">
     </div>
   </div>
 </b-col>
@@ -41,15 +41,15 @@
     <!---- evolve 2-->
     <div class="evolve-box">
         <b-row>
-<b-col cols="5" class="leftevolvebox">
+<b-col lg="5" class="leftevolvebox">
     <h1 class="evolveboxhead py-2"> EVOLVE &nbsp;- &nbsp; Level II</h1>
     <p class="contenttextpg"> Grow </p>
     <p class="contenttextpg">Get deeper into the EVOLVE curriculum with Level 2. With a curated selection of 10 intermediate subjects, this course allows you to expand your knowledge base into becoming a Jack of All Trades of marketing.</p>
     <h1 class="priceevolvebox navic-color py-2">₹24990</h1>
-        <b-button href="/registration" class="btn-black mr-2"> Enroll Now </b-button>
-        <b-button href="/evolve/evolveii" class="btn-black ml-2"> View Course</b-button>
+        <b-button href="/registration" class="btn-black evolvegobtn"> Enroll Now </b-button>
+        <b-button href="/evolve/evolveii" class="btn-black evolvegobtn"> View Course</b-button>
 </b-col>
-<b-col cols="3" class="centerevolvebox">
+<b-col lg="3" class="centerevolvebox">
     <ul>
         <li> &#9679;&nbsp;10 Week course</li>
 <li>&#9679;&nbsp;10 Live sessions</li>
@@ -57,7 +57,7 @@
 <li>&#9679;&nbsp;1-to-1 feedback</li>
     </ul>
 </b-col>
-<b-col cols="4" class="coursebar">
+<b-col lg="4" class="coursebar">
   <div class="seatsleft">
     <h2 class="navic-color"> 3/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="30" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -65,12 +65,12 @@
     <br>
     <h4> STARTS IN </h4>
             <b-row>
-      <b-col cols="1" class="seatbutton">01 </b-col><b-col cols="1" class="seatbutton"> 12</b-col><b-col cols="1" class="seatbutton">20</b-col>
+      <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
-    <div class="py-5">
+    <div class="py-5 hidemobile">
     </div>
   </div>
 </b-col>
@@ -79,15 +79,15 @@
     <!-- Evolve 3-->
 <div class="evolve-box">
         <b-row>
-<b-col cols="5" class="leftevolvebox">
+<b-col lg="5" class="leftevolvebox">
     <h1 class="evolveboxhead py-2"> EVOLVE &nbsp;- &nbsp; Level III</h1>
     <p class="contenttextpg">Dominate</p>
     <p class="contenttextpg">Expand your horizons and become the leader in your peer group with level 3. With a curated selection of 10 pro subjects, this course allows you to perfect your role and career specialization. Own it.</p>
     <h1 class="priceevolvebox navic-color py-2">₹34990</h1>
-        <b-button href="/registration" class="btn-black mr-2"> Enroll Now </b-button>
-        <b-button href="/evolve/evolveiii" class="btn-black ml-2"> View Course</b-button>
+        <b-button href="/registration" class="btn-black evolvegobtn"> Enroll Now </b-button>
+        <b-button href="/evolve/evolveiii" class="btn-black evolvegobtn"> View Course</b-button>
 </b-col>
-<b-col cols="3" class="centerevolvebox">
+<b-col lg="3" class="centerevolvebox">
     <ul>
         <li> &#9679;&nbsp;10 Week course</li>
 <li>&#9679;&nbsp;10 Live sessions</li>
@@ -95,7 +95,7 @@
 <li>&#9679;&nbsp;1-to-1 feedback</li>
     </ul>
 </b-col>
-<b-col cols="4" class="coursebar">
+<b-col lg="4" class="coursebar">
   <div class="seatsleft">
     <h2 class="navic-color"> 2/10 SEATS LEFT</h2>
     <b-progress height="1.5 rem" width="2rem" :value="20" variant="info" striped :animated="animate" class="mt-2"></b-progress>
@@ -103,12 +103,12 @@
     <br>
     <h4> STARTS IN </h4>
             <b-row>
-      <b-col cols="1" class="seatbutton">01 </b-col><b-col cols="1" class="seatbutton"> 12</b-col><b-col cols="1" class="seatbutton">20</b-col>
+      <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
-    <div class="py-5">
+    <div class="py-5 hidemobile">
     </div>
   </div>
 </b-col>
@@ -124,6 +124,9 @@ export default {
 </script>
 
 <style>
+.evolvegobtn{
+ margin: 0rem 1rem 0rem 0rem;
+}
 .rightevolvebox{
     text-align: center !important;
 }

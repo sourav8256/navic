@@ -39,7 +39,7 @@ box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.2);
 .logoconstruction{
     align-content: center;
     text-align: center;
-    width: 9rem;
+    width: 9rem !important;
     height: auto;
     margin: 0px 30px;
     padding: 0px;

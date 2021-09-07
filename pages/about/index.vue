@@ -19,7 +19,7 @@ Let’s learn something new.
           <h1 class="middle-head">WHAT IS <b>EVOLVE</b> ?</h1>
       </b-row>
       <b-row>
-          <b-col> <h3 class="about-head alignleft">Part 1 - Here and Now <b>EVOLVE</b> </h3>
+          <b-col lg="6"> <h3 class="about-head alignleft">Part 1 - Here and Now <b>EVOLVE</b> </h3>
           <p class="py-1">
 <b>EVOLVE</b> is an idea that brings current affairs and the future of communications in a melting pot of
 discussions with students.
@@ -30,7 +30,7 @@ Every session, we start off with a discussion about the rawest developments in t
 <br>3. How does this affect media?</p> </b-col>
           <b-col><img class="img-about" style="padding-left:340px;" src="~/assets/about-polygon.svg"></b-col>
           </b-row>
-      <b-row> <b-col><h3 class="about-head alignleft">Part 2 - Elements</h3><p class="py-1">
+      <b-row> <b-col lg="6"><h3 class="about-head alignleft">Part 2 - Elements</h3><p class="py-1">
 The <b>EVOLVE</b> Elements curriculum is the core of the
 course. A beginners guide to students for subjects
 curated specifically to educate about the future of
@@ -47,7 +47,7 @@ even water-cooler talk, The course readies students to know about tomorrow's nor
 </b-col>
 </b-row>
       <b-row>
-          <b-col>
+          <b-col lg="6">
               <h3 class="about-head alignleft">Part 3 - Method Learning</h3>
               <p class="py-1">The best way to learn something is to do it. After a session of listening and discussion, it is crucial
 that students try out the subject matter at hand with
