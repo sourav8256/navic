@@ -26,10 +26,10 @@
     <br>
     <br>
     <h4> STARTS IN </h4>
-            <b-row>
+            <b-row class="inlineflexer">
       <b-col lg="1" sm="4" class="seatbutton">01 </b-col><b-col lg="1" sm="4" class="seatbutton"> 12</b-col><b-col lg="1" sm="4" class="seatbutton">20</b-col>
     </b-row>
-        <b-row>
+        <b-row class="inlineflexer">
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
     </b-row>
     <div class="py-5 hidemobile">

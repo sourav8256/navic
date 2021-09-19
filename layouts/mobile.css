@@ -60,7 +60,7 @@ font-size: 42px !important;
         padding-right: 0% !important;
      }
      .evolve-box{
-         margin: 0 0 0 0 !important;
+         margin: 2rem !important;
      }
      .rightevolvego{
 padding: 2rem 0rem 0rem !important;
@@ -104,10 +104,10 @@ padding: 2rem 0rem 0rem !important;
     }
     /* thankyou*/
     .boxbg{
-        margin: 0 !important;
+        margin: 1rem 0 1rem 0 !important;
     }
     .box-bg{
-        margin: 0 !important;
+        margin: 0 1rem 1rem  !important;
         width: 100% !important;
     }
     /*Faq*/
@@ -120,6 +120,9 @@ padding: 2rem 0rem 0rem !important;
     }
     /* evolvePro*/
     .formpro{
-        padding:2rem 0 0 0;
+        padding:2rem 2rem 0;
+    }
+    .inlineflexer{
+        display: inline-flex !important;
     }
 }

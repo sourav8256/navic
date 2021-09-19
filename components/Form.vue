@@ -127,7 +127,7 @@ export default {
     color:white;
     align-items: center;
     text-align: left;
-    padding: 50px;
+    padding: 10px;
 }
 .formbody{
   margin:0px 300px;
