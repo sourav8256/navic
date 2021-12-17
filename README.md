@@ -16,5 +16,13 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+## Netlify CI/CD 
+Clone Project
+Domain config
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## DB
+Firebase
+Admin shared 
+*Firbase Doc [Firebase auth,db](https://firebase.google.com/docs)
+*Netlify Doc [Start for CI/CD config](https://docs.netlify.com/)
+*For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
