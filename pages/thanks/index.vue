@@ -37,6 +37,7 @@
               </b-row>
     </div>
 </b-container>
+ <!-- <Pay /> -->
 </template>
 
 <script>

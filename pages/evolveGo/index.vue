@@ -16,7 +16,24 @@ we’ll explain the basics of the disruption of the decade – cryptocurrencies.
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹990</h1>
-        <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
+       <!-- <b-button href="/payment" class="btn-black"> Enroll Now </b-button> -->
+
+           <form action="/student" method="POST">
+<script
+    src="https://checkout.razorpay.com/v1/checkout.js"
+    data-key="rzp_test_enRiibCpGvB8WA"
+    data-amount="99000"
+    data-currency="INR"
+    data-buttontext=" Enroll Now "
+    data-name="Acme Corp"
+    data-description="A Wild Sheep Chase is the third novel by Japanese author Haruki Murakami"
+    data-prefill.name="Gaurav Kumar"
+    data-prefill.email="saikat1236@gmail.com"
+    data-prefill.phone="7085959167"
+    data-theme.color="#F37254"
+></script>
+<input type="hidden" custom="Hidden Element" name="hidden">
+</form>
 </b-col>
 <b-col lg="6" >
     <div class="rightevolvego">
@@ -48,7 +65,23 @@ In part 2, we refresh the earlier program in 10 minutes and dive into the practi
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹1990</h1>
-        <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
+        <!-- <b-button href="/registration" class="btn-black"> Enroll Now </b-button> -->
+        <form action="/student" method="POST">
+<script
+    src="https://checkout.razorpay.com/v1/checkout.js"
+    data-key="rzp_test_enRiibCpGvB8WA"
+    data-amount="199000"
+    data-currency="INR"
+    data-buttontext=" Enroll Now "
+    data-name="Acme Corp"
+    data-description="A Wild Sheep Chase is the third novel by Japanese author Haruki Murakami"
+    data-prefill.name="Gaurav Kumar"
+    data-prefill.email="saikat1236@gmail.com"
+    data-prefill.phone="7085959167"
+    data-theme.color="#F37254"
+></script>
+<input type="hidden" custom="Hidden Element" name="hidden">
+</form>
 </b-col>
 <b-col lg="6" >
     <div class="rightevolvego">
@@ -79,7 +112,80 @@ In this crash-course, learn simple and practical methods to design a digital cam
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹1990</h1>
-        <b-button href="/registration" class="btn-black"> Enroll Now </b-button>
+<div class="container">
+
+     <!-- <Pay /> -->
+  </div>
+   <form action="/student" method="POST">
+<script
+    src="https://checkout.razorpay.com/v1/checkout.js"
+    data-key="rzp_test_enRiibCpGvB8WA"
+    data-amount="199000"
+    data-currency="INR"
+    data-buttontext=" Enroll Now "
+    data-buttoncolor="blue"
+    data-name="Acme Corp"
+    data-description="A Wild Sheep Chase is the third novel by Japanese author Haruki Murakami"
+    data-prefill.name="Gaurav Kumar"
+    data-prefill.email="saikat1236@gmail.com"
+    data-prefill.phone="7085959167"
+    data-theme.color="#F37254"
+></script>
+<input type="hidden" custom="Hidden Element" name="hidden">
+</form>
+        <!-- <b-button href="/home" class="btn-black"> Enroll Now </b-button> -->
+        <!-- <button id="rzp-button1">Pay</button>
+        <script src="https://checkout.razorpay.com/v1/checkout.js">
+        var orderId;
+$(document).ready(function () {
+  var settings = {
+    "url": "/create/orderId",
+    "method": "POST",
+    "timeout": 0,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "data": JSON.stringify({
+      "amount": "199000"
+    }),
+  };
+  // creates new orderId everytime
+  $.ajax(settings).done(function (response) {
+    orderId = response.orderId;
+    console.log(orderId);
+    $("button").show();
+  });
+});
+
+document.getElementById('rzp-button1').onclick = function (e) {
+  var options = {
+    "key": "rzp_test_enRiibCpGvB8WA", // Enter the Key ID generated from the Dashboard
+    "amount": "199000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    "currency": "INR",
+    "name": "Acme Corp",
+    "description": "Test Transaction",
+    "order_id": orderId, //This is a sample Order ID. Pass the `id` obtained in the previous step
+    "handler": function (response) {
+      alert(response.razorpay_payment_id);
+      alert(response.razorpay_order_id);
+      alert(response.razorpay_signature)
+    },
+  };
+  var rzp1 = new Razorpay(options);
+  rzp1.on('payment.failed', function (response) {
+    alert(response.error.code);
+    alert(response.error.description);
+    alert(response.error.source);
+    alert(response.error.step);
+    alert(response.error.reason);
+    alert(response.error.metadata.order_id);
+    alert(response.error.metadata.payment_id);
+  });
+  rzp1.open();
+  e.preventDefault();
+}
+        </script> -->
+
 </b-col>
 <b-col lg="6" >
     <div class="rightevolvego">
@@ -105,9 +211,7 @@ In this crash-course, learn simple and practical methods to design a digital cam
 </template>
 
 <script>
-export default {
 
-}
 </script>
 
 <style>

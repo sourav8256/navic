@@ -12,12 +12,19 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
+    "@vue-stripe/vue-stripe": "^4.2.9",
+    "axios": "^0.24.0",
     "bootstrap": "^4.6.0",
     "bootstrap-icons-vue": "^0.7.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
+    "express": "^4.17.2",
     "firebase": "^8.9.1",
-    "nuxt": "^2.15.3"
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "nuxt": "^2.15.8",
+    "razorpay": "^2.8.0",
+    "tls": "0.0.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",

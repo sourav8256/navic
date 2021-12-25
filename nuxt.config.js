@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  target: 'server',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -12,7 +12,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [{ src: 'https://checkout.razorpay.com/v1/checkout.js' }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -24,6 +25,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/firebase.js'
+    // '~/plugins/razorpay.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -45,6 +47,13 @@ export default {
   bootstrapVue: {
     icons: true
   },
+
+  /*
+  ** Server Middleware
+  */
+  serverMiddleware: {
+    '/server': '~/server'
+  },
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     icon: {
@@ -57,11 +66,21 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extend (config, ctx) {
+      config.node = {
+        fs: 'empty'
+      }
+    }
   },
   // Loading Screen
   loading: {
     color: 'white',
     height: '5px',
     duration: 5000
+  },
+  server: {
+    port: 3000, // default: 3000
+    host: '0.0.0.0', // default: localhost,
+    timing: false
   }
 }

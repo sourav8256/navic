@@ -6,7 +6,7 @@
         <div class="subtitle white">Already Part of NAVIC?&nbsp;</div>
       <div class="subtitle navic-color text-center"> <a href="/login"> LOGIN </a></div>
       </b-col><b-col></b-col>
-      </div>
+    </div>
       <Signup />
 </b-container>
 </template>

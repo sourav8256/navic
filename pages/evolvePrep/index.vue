@@ -42,9 +42,25 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
     </b-row>
     <div class="py-5">
       <h2 class="navic-color pb-4">₹4990</h2>
-<a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a>
+      <!-- <a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a> -->
+       </div>
+       <form action="/student" method="POST">
+      <script
+     src="https://checkout.razorpay.com/v1/checkout.js"
+     data-key="rzp_test_enRiibCpGvB8WA"
+      data-amount="499000"
+      data-currency="INR"
+     data-buttontext="Pay with Razorpay"
+      data-name="Acme Corp"
+      data-description="A Wild Sheep Chase is the third novel by Japanese author Haruki Murakami"
+      data-prefill.name="Gaurav Kumar"
+     data-prefill.email="saikat1236@gmail.com"
+      data-prefill.phone="7085959167"
+     data-theme.color="#F37254"
+      ></script>
+      <input type="hidden" custom="Hidden Element" name="hidden">
+        </form>
     </div>
-  </div>
 </b-col>
 </b-row>
   <h2 class="center centerhead py-5">CURRICULUM STRUCTURE</h2>
@@ -63,22 +79,23 @@ Next Batch:  <b-icon icon="calendar3" variant="info"></b-icon>  Starting 1st Aug
   <b-row>
     <b-col lg="4" align-self="start"></b-col>
     <b-col lg="4" align-self="center" class="px-2">
-      <div class="seatsleft">
-    <h2 class="navic-color"> 5/10 SEATS LEFT</h2>
-    <b-progress height="1.5 rem" width="2rem" :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
-    <br>
-    <br>
-    <h4> STARTS IN </h4>
+    <div class="seatsleft">
+     <h2 class="navic-color"> 5/10 SEATS LEFT</h2>
+      <b-progress height="1.5 rem" width="2rem" :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
+     <br>
+      <br>
+     <h4> STARTS IN </h4>
             <b-row>
       <b-col lg="1" class="seatbutton">01 </b-col><b-col lg="1" class="seatbutton"> 12</b-col><b-col lg="1" class="seatbutton">20</b-col>
-    </b-row>
+     </b-row>
         <b-row>
       <b-col>DAYS </b-col><b-col > HOURS</b-col><b-col >MINS</b-col>
-    </b-row>
-    <div class="py-5">
+     </b-row>
+     <div class="py-5">
       <h2 class="navic-color pb-4">₹4990</h2>
-<a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a>
-    </div>
+          <!-- <a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a> -->
+     </div>
+
     </div>
     </b-col>
     <b-col align-self="end"></b-col>

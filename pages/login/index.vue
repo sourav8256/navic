@@ -51,7 +51,7 @@ export default {
         .signInWithEmailAndPassword(this.email, this.password)
         .then(data => {
           console.log(data)
-          this.$router.replace({ name: 'student' })
+          this.$router.replace({ name: 'payment' })
         })
         .catch(error => {
           this.error = error

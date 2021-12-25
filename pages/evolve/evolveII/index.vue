@@ -45,9 +45,25 @@ Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1
     </b-row>
     <div class="py-5">
       <h2 class="navic-color pb-4">₹24990</h2>
-<a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a>
+<!-- <a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a> -->
+ </div>
+   <form action="/student" method="POST">
+<script
+    src="https://checkout.razorpay.com/v1/checkout.js"
+    data-key="rzp_test_enRiibCpGvB8WA"
+    data-amount="2499000"
+    data-currency="INR"
+    data-buttontext=" ENROLL NOW "
+    data-name="Acme Corp"
+    data-description="A Wild Sheep Chase is the third novel by Japanese author Haruki Murakami"
+    data-prefill.name="Gaurav Kumar"
+    data-prefill.email="saikat1236@gmail.com"
+    data-prefill.phone="7085959167"
+    data-theme.color="#F37254"
+></script>
+<input type="hidden" custom="Hidden Element" name="hidden">
+</form>
     </div>
-  </div>
 </b-col>
 </b-row>
   <h2 class="center centerhead py-5">Modules in This Course</h2>
@@ -337,7 +353,7 @@ of bots<br>
     </b-row>
     <div class="py-5">
       <h2 class="navic-color pb-4">₹14990</h2>
-<a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a>
+<!-- <a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a> -->
     </div>
     </div>
     </b-col>
