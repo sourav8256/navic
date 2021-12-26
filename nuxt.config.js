@@ -51,9 +51,7 @@ export default {
   /*
   ** Server Middleware
   */
-  serverMiddleware: {
-    '/server': '~/server'
-  },
+
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     icon: {
