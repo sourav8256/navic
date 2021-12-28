@@ -16,8 +16,9 @@ we’ll explain the basics of the disruption of the decade – cryptocurrencies.
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹990</h1>
-      <b-button href="" class="btn-black"> Enroll Now </b-button>
-    <div><Signup /></div>
+     <div id="app">
+    <Paymentwithgpay />
+  </div>
 </b-col>
 <b-col lg="6" >
     <div class="rightevolvego">
@@ -49,8 +50,9 @@ In part 2, we refresh the earlier program in 10 minutes and dive into the practi
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹1990</h1>
-       <b-button href="" class="btn-black"> Enroll Now </b-button>
-    <div><Signup /></div>
+    <div id="app">
+        <Paymentwithgpay />
+    </div>
 </b-col>
 <b-col lg="6" >
     <div class="rightevolvego">
@@ -81,8 +83,9 @@ In this crash-course, learn simple and practical methods to design a digital cam
     </b-row>
 </p>
 <h1 class="priceevolvebox navic-color">₹1990</h1>
-    <b-button href="" class="btn-black"> Enroll Now </b-button>
-    <div><Signup /></div>
+    <div id="app">
+    <Paymentwithgpay />
+  </div>
 </b-col>
 <b-col lg="6" >
     <div class="rightevolvego">
@@ -108,10 +111,10 @@ In this crash-course, learn simple and practical methods to design a digital cam
 </template>
 
 <script>
-// import GooglePay from "components/GooglePay.vue";
+// import Paymentwithgpay from "components/Paymentwithgpay.vue";
 export default {
 //   components: {
-//     GooglePay,
+//     Paymentwithgpay,
 //   },
 }
 </script>
