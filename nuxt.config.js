@@ -70,7 +70,8 @@ export default {
       config.node = {
         fs: 'empty'
       }
-    }
+    },
+    babel: { compact: true }
   },
   // Loading Screen
   loading: {
