@@ -4,7 +4,7 @@
     <b-row>
       <b-col></b-col><b-col cols=12>
         <div class="subtitle white">New to NAVIC?&nbsp;</div>
-      <div class="subtitle navic-color text-center"> <a href="/registration"> SIGN UP </a></div>
+      <div class="subtitle navic-color text-center"> <a href="/reg123"> SIGN UP </a></div>
       </b-col><b-col></b-col>
     </b-row>
     <form @submit.prevent="pressed">
@@ -51,7 +51,7 @@ export default {
         .signInWithEmailAndPassword(this.email, this.password)
         .then(data => {
           console.log(data)
-          this.$router.replace({ name: 'thanks' })
+          this.$router.replace({ name: 'evolve' })
         })
         .catch(error => {
           this.error = error
