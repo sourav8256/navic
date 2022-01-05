@@ -1,7 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'server',
-  distDir: 'out',
+  // target: 'server',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Navic | Know Better',
