@@ -1,7 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'server',
-
+  distDir: 'out',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Navic | Know Better',
@@ -51,9 +51,6 @@ export default {
   /*
   ** Server Middleware
   */
-  serverMiddleware: {
-    '/server': '~/server'
-  },
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     icon: {
