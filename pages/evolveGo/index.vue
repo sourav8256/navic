@@ -18,7 +18,7 @@ we’ll explain the basics of the disruption of the decade – cryptocurrencies.
 <h1 class="priceevolvebox navic-color">₹990</h1>
        <!-- <b-button href="/payment" class="btn-black"> Enroll Now </b-button> -->
 
-           <form action="/studentgo" method="POST">
+           <form action="/thanks" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_enRiibCpGvB8WA"
