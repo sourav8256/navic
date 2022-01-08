@@ -9,7 +9,7 @@
     <p class="contenttextpg">Start Begin your journey with Level 1 of the EVOLVE program to prepare and train yourself for the future of marketing. With a curated selection of 10 starter subjects, Level 1 aims to develop your curiosity and find up your marketing game whilst you learn and adapt to the ever-changing environment.</p>
     <h1 class="priceevolvebox navic-color py-2">₹14990</h1>
         <!-- <b-button href="/registration" class="btn-black evolvegobtn"> Enroll Now </b-button> -->
-         <form action="/student/student1" method="POST">
+         <form action="/student1" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_enRiibCpGvB8WA"
@@ -63,7 +63,7 @@
     <p class="contenttextpg">Get deeper into the EVOLVE curriculum with Level 2. With a curated selection of 10 intermediate subjects, this course allows you to expand your knowledge base into becoming a Jack of All Trades of marketing.</p>
     <h1 class="priceevolvebox navic-color py-2">₹24990</h1>
         <!-- <b-button href="/registration" class="btn-black evolvegobtn"> Enroll Now </b-button> -->
-         <form action="/student/student2" method="POST">
+         <form action="/student2" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_enRiibCpGvB8WA"
@@ -117,7 +117,7 @@
     <p class="contenttextpg">Expand your horizons and become the leader in your peer group with level 3. With a curated selection of 10 pro subjects, this course allows you to perfect your role and career specialization. Own it.</p>
     <h1 class="priceevolvebox navic-color py-2">₹34990</h1>
         <!-- <b-button href="/registration" class="btn-black evolvegobtn"> Enroll Now </b-button> -->
-         <form action="/student/student3" method="POST">
+         <form action="/student3" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_enRiibCpGvB8WA"

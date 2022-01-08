@@ -18,7 +18,7 @@ we’ll explain the basics of the disruption of the decade – cryptocurrencies.
 <h1 class="priceevolvebox navic-color">₹990</h1>
        <!-- <b-button href="/payment" class="btn-black"> Enroll Now </b-button> -->
 
-           <form action="/student/studentgo" method="POST">
+           <form action="/studentgo" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_enRiibCpGvB8WA"
@@ -66,7 +66,7 @@ In part 2, we refresh the earlier program in 10 minutes and dive into the practi
 </p>
 <h1 class="priceevolvebox navic-color">₹1990</h1>
         <!-- <b-button href="/registration" class="btn-black"> Enroll Now </b-button> -->
-        <form action="/student/studentgo" method="POST">
+        <form action="/studentgo" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_enRiibCpGvB8WA"
@@ -116,7 +116,7 @@ In this crash-course, learn simple and practical methods to design a digital cam
 
      <!-- <Pay /> -->
   </div>
-   <form action="/student/studentgo" method="POST">
+   <form action="/studentgo" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_enRiibCpGvB8WA"

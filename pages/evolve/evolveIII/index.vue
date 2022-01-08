@@ -47,7 +47,7 @@ Next Batch:  &nbsp;<b-icon icon="calendar3" variant="info"></b-icon>  Starting 1
       <h2 class="navic-color pb-4">₹34990</h2>
 <!-- <a href="/registration"><b-button class="btn-black"> ENROLL NOW </b-button></a> -->
  </div>
-   <form action="/student/student3" method="POST">
+   <form action="/student3" method="POST">
 <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="rzp_test_enRiibCpGvB8WA"
