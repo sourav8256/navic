@@ -30,7 +30,7 @@
           <h1 class="priceevolvebox navic-color">₹990</h1>
           <!-- <b-button href="/payment" class="btn-black"> Enroll Now </b-button> -->
 
-          <form action="/studentgo" method="POST">
+          <form action="http://192.168.43.239:3000/studentgo/" method="POST">
             <script
               src="https://checkout.razorpay.com/v1/checkout.js"
               data-key="rzp_test_enRiibCpGvB8WA"
