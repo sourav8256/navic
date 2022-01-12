@@ -5,7 +5,7 @@
         <b-row>
             <b-col lg="6">
                 <p class="coursedate"> Started On : 02nd September 2021</p>
-                <h3 class="courseenrolled"> <b>EVOLVE</b> Go - Blockchain Unchained {{coursename}}</h3></b-col>
+                <h3 class="courseenrolled"> <b>EVOLVE</b> Go - Blockchain Unchained </h3></b-col>
             <b-col>
                 <b-row>
                     <b-col>
@@ -24,7 +24,7 @@
         <b-row>
             <b-col lg="6">
                 <p class="coursedate"> Started On : 22nd September 2021</p>
-                <h3 class="courseenrolled"> EVOLVE - Level I {{coursename}}</h3></b-col>
+                <h3 class="courseenrolled"> EVOLVE - Level I </h3></b-col>
             <b-col>
                 <b-row>
                     <b-col>
@@ -41,7 +41,7 @@
                 <b-row>
             <b-col lg="6">
                 <p class="coursedate"> Started On : 22nd September 2021</p>
-                <h3 class="courseenrolled"> EVOLVE - Level II {{coursename}}</h3></b-col>
+                <h3 class="courseenrolled"> EVOLVE - Level II </h3></b-col>
             <b-col>
                 <b-row>
                     <b-col>
@@ -58,11 +58,11 @@
                 <b-row>
             <b-col lg="6">
                 <p class="coursedate"> Started On : 22nd September 2021</p>
-                <h3 class="courseenrolled"> EVOLVE - Level III {{coursename}}</h3></b-col>
+                <h3 class="courseenrolled"> EVOLVE - Level III</h3></b-col>
             <b-col>
                 <b-row>
                     <b-col>
-                        <h3 class="linkhead navic-color">Batch 1 Classroom</h3>
+                        <h3 class="linkhead navic-color">Batch 1 Classroom </h3>
             "<p class="courselink"> <a href="#"><b-button disabled class="white-btn"> Batch Uno</b-button></a><hr style="color:gray; background-color:gray; margin-top:2rem;">
                     </b-col>
                     <b-col>
