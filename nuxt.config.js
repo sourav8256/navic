@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'server',
+  target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -13,7 +13,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [{ src: 'https://checkout.razorpay.com/v1/checkout.js' }]
+    // script: [{ src: 'https://checkout.razorpay.com/v1/checkout.js' }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -68,8 +68,12 @@ export default {
       config.node = {
         fs: 'empty'
       }
-    }
+    },
+    babel:{
+      compact: true
+      }
   },
+
   // Loading Screen
   loading: {
     color: 'white',

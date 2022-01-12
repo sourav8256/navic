@@ -1,81 +1,93 @@
 <template>
-  <div class="examples">
-    <div>
-      <div class="example">
-        <div class="title">Static Example</div>
-        <div class="demo">
-          <google-pay-button
-            environment="TEST"
-            button-type="plain"
-            button-color="black"
-            v-bind:paymentRequest.prop="{
-              apiVersion: 2,
-              apiVersionMinor: 0,
-              allowedPaymentMethods: [
-                {
-                  type: 'CARD',
-                  parameters: {
-                    allowedAuthMethods: ['PAN_ONLY', 'CRYPTOGRAM_3DS'],
-                    allowedCardNetworks: ['MASTERCARD', 'VISA'],
-                  },
-                  tokenizationSpecification: {
-                    type: 'PAYMENT_GATEWAY',
-                    parameters: {
-                      gateway: 'example',
-                      gatewayMerchantId: 'exampleGatewayMerchantId',
-                    },
-                  },
-                },
-              ],
-              merchantInfo: {
-                merchantId: '12345678901234567890',
-                merchantName: 'Demo Merchant',
-              },
-              transactionInfo: {
-                totalPriceStatus: 'FINAL',
-                totalPriceLabel: 'Total',
-                totalPrice: '100.00',
-                currencyCode: 'USD',
-                countryCode: 'US',
-              },
-            }"
-            v-on:loadpaymentdata="onLoadPaymentData"
-            v-on:error="onError"
-          ></google-pay-button>
-        </div>
-      </div>
+  <div class="example">
+    <div class="demo">
+      <google-pay-button
+        environment="TEST"
+        v-bind:button-type="buttonType"
+        v-bind:button-color="buttonColor"
+        v-bind:existing-payment-method-required="existingPaymentMethodRequired"
+        v-bind:paymentRequest.prop="{
+          apiVersion: paymentRequest.apiVersion,
+          apiVersionMinor: paymentRequest.apiVersionMinor,
+          allowedPaymentMethods: paymentRequest.allowedPaymentMethods,
+          merchantInfo: paymentRequest.merchantInfo,
+          transactionInfo: {
+            totalPriceStatus: 'FINAL',
+            totalPriceLabel: 'Total',
+            totalPrice: amount,
+            currencyCode: 'USD',
+            countryCode: 'US',
+          },
+          callbackIntents: ['PAYMENT_AUTHORIZATION'],
+        }"
+        v-on:loadpaymentdata="onLoadPaymentData"
+        v-on:error="onError"
+        v-bind:onPaymentAuthorized.prop="onPaymentDataAuthorized"
+      ></google-pay-button>
     </div>
   </div>
 </template>
 
 <script>
-import '@google-pay/button-element';
+import "@google-pay/button-element";
 export default {
-  name: 'StaticExample',
+  name: "Paymentwithgpay",
   props: {},
-  methods: {
-    onLoadPaymentData: event => {
-      console.log('load payment data', event.detail);
+  data: () => ({
+    amount: "10.00",
+    existingPaymentMethodRequired: true,
+    buttonColor: "default",
+    buttonType: "buy",
+    paymentRequest: {
+      apiVersion: 2,
+      apiVersionMinor: 0,
+      allowedPaymentMethods: [
+        {
+          type: "CARD",
+          parameters: {
+            allowedAuthMethods: ["PAN_ONLY", "CRYPTOGRAM_3DS"],
+            allowedCardNetworks: ["MASTERCARD", "VISA"],
+          },
+          tokenizationSpecification: {
+            type: "PAYMENT_GATEWAY",
+            parameters: {
+              gateway: "example",
+              gatewayMerchantId: "exampleGatewayMerchantId",
+            },
+          },
+        },
+      ],
+      merchantInfo: {
+        merchantId: "12345678901234567890",
+        merchantName: "Demo Merchant",
+      },
     },
-    onError: event => {
-      console.error('error', event.error);
+  }),
+  methods: {
+    onLoadPaymentData: (event) => {
+      console.log("load payment data", event.detail);
+    },
+    onError: (event) => {
+      console.error("error", event.error);
+    },
+    onPaymentDataAuthorized: (paymentData) => {
+      console.log("payment authorized", paymentData);
+      return {
+        transactionState: "SUCCESS",
+      };
     },
   },
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 .example {
   margin: 5px;
   display: flex;
   flex-direction: row;
 }
-.example > .title {
-  width: 250px;
-  align-items: center;
-  display: inherit;
-}
+
 .example > .demo {
   flex: 1 0 0;
 }

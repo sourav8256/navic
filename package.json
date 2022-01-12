@@ -13,7 +13,6 @@
   "dependencies": {
     "@google-pay/button-element": "^3.0.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "@vue-stripe/vue-stripe": "^4.2.9",
     "axios": "^0.24.0",
     "bootstrap": "^4.6.0",
     "bootstrap-icons-vue": "^0.7.0",
@@ -24,7 +23,6 @@
     "fs": "0.0.1-security",
     "net": "^1.0.2",
     "nuxt": "^2.15.8",
-    "razorpay": "^2.8.0",
     "tls": "0.0.1",
     "vue-google-pay": "0.0.2"
   },
@@ -32,6 +30,7 @@
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "babel-eslint": "^10.1.0",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "eslint": "^7.25.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
