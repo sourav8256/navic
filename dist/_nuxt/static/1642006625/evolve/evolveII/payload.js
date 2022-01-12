@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/evolve/evolveii", {data:[{}],fetch:{},mutations:void 0});
