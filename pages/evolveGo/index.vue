@@ -30,13 +30,15 @@
           <h1 class="priceevolvebox navic-color">₹990</h1>
           <!-- <b-button href="/payment" class="btn-black"> Enroll Now </b-button> -->
 
-          <form action="/studentgo" method="POST">
+          <form action="/studentgo" method="GET">
             <script
               src="https://checkout.razorpay.com/v1/checkout.js"
+              data-payment_button_id="pl_IiqBvaEq75IFQi" async
               data-key="rzp_test_enRiibCpGvB8WA"
               data-amount="99000"
               data-currency="INR"
               data-buttontext=" Enroll Now "
+              data-buttoncolor="#F37254"
               data-name="Acme Corp"
               data-description="A Wild Sheep Chase is the third novel by Japanese author Haruki Murakami"
               data-prefill.name="Gaurav Kumar"
