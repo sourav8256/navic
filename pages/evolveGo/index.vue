@@ -30,7 +30,7 @@
           <h1 class="priceevolvebox navic-color">₹990</h1>
           <!-- <b-button href="/payment" class="btn-black"> Enroll Now </b-button> -->
 
-          <form action="/studentgo/" method="POST" data-netlify="true">
+          <form action="/studentgo" method="GET" data-netlify="true">
             <script
               src="https://checkout.razorpay.com/v1/checkout.js"
               data-key="rzp_test_enRiibCpGvB8WA"
@@ -107,7 +107,7 @@
           </p>
           <h1 class="priceevolvebox navic-color">₹1990</h1>
           <!-- <b-button href="/registration" class="btn-black"> Enroll Now </b-button> -->
-          <form action="/studentgo" method="POST">
+          <form action="/studentgo" method="GET">
             <script
               src="https://checkout.razorpay.com/v1/checkout.js"
               data-key="rzp_test_enRiibCpGvB8WA"
@@ -184,7 +184,7 @@
           <div class="container">
             <!-- <Pay /> -->
           </div>
-          <form action="/studentgo" method="POST">
+          <form action="/studentgo" method="GET">
             <script
               src="https://checkout.razorpay.com/v1/checkout.js"
               data-key="rzp_test_enRiibCpGvB8WA"
@@ -202,7 +202,7 @@
             <input type="hidden" custom="Hidden Element" name="hidden" />
           </form>
           <!-- <b-button href="/home" class="btn-black"> Enroll Now </b-button> -->
-          <!-- <button id="rzp-button1">Pay</button>
+          <!-- <button id="rzp-button1">Pay</button> -->
         <script src="https://checkout.razorpay.com/v1/checkout.js">
         var orderId;
 $(document).ready(function () {
